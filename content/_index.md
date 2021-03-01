@@ -2,57 +2,52 @@
 title: Cleaning Services & Probiotic Cleaning Products
 description: ProfiClean offers exceptional cleaning services and probiotic cleaning products. For residential and commercial services, and products for your home, call today!
 
-hero1: SAFETY & QUALITY with 
-hero2: ProfiClean 
-hero3: Exceptional cleaning services and top-of-the-line probiotic cleaning products. 
+hero1: 3d Architectural Rendering
+hero2: Inteck3d
+hero3: We Are Architectural Visualization Specialists
 
-heading1: DISCOVER THE BEST WAY TO ENJOY A HEALTHIER LIVING SPACE
-heading1_sub: Proficlean developed EkoCleaner, a probiotic cleaning product that is safe, effective, and environmentally-friendly. This amazing all-purpose cleaner comes in zero-waste packaging that you can return for reuse for free! It is highly concentrated and designed to save you money and to save the planet from waster. It's free of harmful chemicals and toxins giving you peace of mind knowing that your home is safe and healthy. All you'll ever need for your green and healthy home cleaning. Try it today or subscribe for even more saving and peace of mind.
+heading1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+heading1_sub: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget augue ut sapien interdum cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque posuere, quam id pretium maximus, diam massa efficitur turpis, sed vestibulum felis libero ut leo. Vivamus commodo laoreet ante, vel mollis est pulvinar eget. Sed sodales rutrum magna, et dignissim quam pellentesque nec. Integer vulputate consequat arcu, in sollicitudin justo iaculis eu. In vel magna mi. Cras in nunc enim. Donec dui lacus, mattis ut leo eget, facilisis egestas lacus.
 
-benefit1: Biodegradable
-benefit1_desc: Ekocleaner is fully biodegradable within 28 days! Just like when you take probiotics to restore your body's natural balance, using probiotics on the surfaces in your home helps restore the natural healthy balance in your living spaces. 
+benefit1: Lorem ipsum
+benefit1_desc: Pellentesque posuere, quam id pretium maximus, diam massa efficitur turpis, sed vestibulum felis libero ut leo. Vivamus commodo laoreet ante, vel mollis est pulvinar eget.
 
-benefit2: Pet-friendly
-benefit2_desc: If you have pets or kids around the house, there's no need to worry about any harmful interactions or long-term health effects. 
+benefit2: Lorem ipsum
+benefit2_desc: Pellentesque posuere, quam id pretium maximus, diam massa efficitur turpis, sed vestibulum felis libero ut leo. Vivamus commodo laoreet ante, vel mollis est pulvinar eget. 
 
-benefit3: Environmentally-Friendly
-benefit3_desc: The formula is highly concentrated to reduce EkoCleaner's carbon footprint during transport. We use glass bottles that you can recycle and return to us for free reuse.
+benefit3: Lorem ipsum
+benefit3_desc: Pellentesque posuere, quam id pretium maximus, diam massa efficitur turpis, sed vestibulum felis libero ut leo. Vivamus commodo laoreet ante, vel mollis est pulvinar eget.
 
-heading2: PROBIOTICS FOR A HEALTHY HOME<br>AND A CLEAN PLANET
-heading2_sub: "Probiotic cleaners use a balance of live bacteria to continue cleaning your home long after the product has been applied. Because bacterias are always changing their DNA, it's nearly impossible to continue creating products that kill them entirely. Just like when you take probiotics to keep your body healthy, they can be used in our living spaces to help clean in a much more sustainable and eco-friendly way. Probiotics are free from harmful and cancerogenic toxins, chemicals, and pathogens.<br><br>Use bacterias to your advantage! It's not unusual for people to think that all bacterias are bad, but that's not true! There are certain types of good bacteria, which are actually essential for our health and the natural balance of our environment. And good bacteria is at the core of probiotic cleaning products from ProfiClean. We take pride in NOT KILLING 99.9% of all living organisms, but rather using nature's own powers to help restore the healthy balance on the surfaces. If you're looking for a healthier and more sustainable way to clean your home or business, learn more about probiotic cleaners and try EkoCleaner products today!"
+heading2: What Can An Architectural Visualization Specialist Do For You?
+heading2_sub: "Donec sodales magna dolor, ac sollicitudin risus faucibus non. Nam non commodo leo, sit amet scelerisque orci. Praesent tristique sit amet lectus vel egestas. Integer quis varius turpis, sit amet ornare turpis. Donec pretium quam tellus. Donec mi turpis, vehicula eu dui ut, vehicula sollicitudin elit. Donec cursus bibendum nisi ac congue. Ut sodales nibh mauris, ut rhoncus metus rhoncus eu. Vestibulum faucibus lectus nulla, nec convallis felis vestibulum sed. Proin non varius arcu.<br><br>Quisque interdum laoreet tellus, semper ullamcorper massa iaculis eget. Vivamus sit amet volutpat ligula, eu accumsan erat. Pellentesque nisi erat, commodo quis enim eu, vulputate congue turpis. In scelerisque ullamcorper libero eu sagittis. Vivamus justo sapien, elementum in efficitur nec, laoreet et erat. Mauris commodo nisl sit amet luctus commodo. In consectetur consequat hendrerit. Curabitur quis interdum magna.<br><br>Nunc vel dui risus. Aliquam fringilla ante justo, non tincidunt arcu aliquet vel. Vivamus semper nisi at nunc euismod fermentum. Vivamus eu orci convallis, tempus enim ut, bibendum diam. Aenean ipsum mi, viverra at malesuada eget, sagittis eu elit. Cras tincidunt dolor ut lacinia accumsan."
 
-heading3: RESEARCH AND SCIENCE-BASED FORMULA
-
-order_disclaimer: There's no risk for you, just try it out and see if it's for you. If not, simply send us back your bottle (even if it's empty!) and we will refund all your money...AND you get to keep the bonuses!
-order: Order EkoCleaner Today!
-
-Testimonial1_comment: "Effective and Safe..."
+Testimonial1_comment: "Donec sodales magna dolor"
 Testimonial1_name: Kerry S.
-Testimonial1: "Ever since I started using this I  feel piece of mind!. It is definitely as effective, if not better than the harsh chemicals I was using before. Seems like it creates a type of a protective layer - really nice."
+Testimonial1: Donec in ullamcorper leo. Vivamus ultrices viverra felis, a porttitor odio. Donec massa metus, lacinia eget lacus vel, vestibulum sollicitudin neque. Phasellus eget turpis tincidunt mauris sollicitudin porta. Integer erat nibh, venenatis non dui ac, malesuada vulputate urna. 
 
-Testimonial2_comment: "Small but powerful..."
+Testimonial2_comment: "Donec sodales magna dolor"
 Testimonial2_name: Daisy R.
-Testimonial2: "It is amazing how this small bottle makes 5 regular size bottles with the same if not better efficiency! I was able to replace so many of the toxic and harsh chemicals I had at home! Amazing!"
+Testimonial2: Donec in ullamcorper leo. Vivamus ultrices viverra felis, a porttitor odio. Donec massa metus, lacinia eget lacus vel, vestibulum sollicitudin neque. Phasellus eget turpis tincidunt mauris sollicitudin porta. Integer erat nibh, venenatis non dui ac, malesuada vulputate urna. 
 
-Testimonial3_comment: Finally a zero waste solution!
+Testimonial3_comment: Donec sodales magna dolor,
 Testimonial3_name: Marie P.
-Testimonial3: "I absolutely love this product!!!! Not only is it safe for me and the environment, but it comes in a glass bottle that I can return to the company for reuse AND I don't even have to pay for postage once I have 10 bottles for return! Thank you EkoCleaner for finally making it possible for me to achieve my zero waste goals in my cleaning as well! "
+Testimonial3: Donec in ullamcorper leo. Vivamus ultrices viverra felis, a porttitor odio. Donec massa metus, lacinia eget lacus vel, vestibulum sollicitudin neque. Phasellus eget turpis tincidunt mauris sollicitudin porta. Integer erat nibh, venenatis non dui ac, malesuada vulputate urna. 
 
-Testimonial4_comment: It really does make a difference...
+Testimonial4_comment: Donec sodales magna dolor,
 Testimonial4_name: Steve J.
-Testimonial4: Amazing product! Thank you!"
+Testimonial4: Donec in ullamcorper leo. Vivamus ultrices viverra felis, a porttitor odio. Donec massa metus, lacinia eget lacus vel, vestibulum sollicitudin neque. Phasellus eget turpis tincidunt mauris sollicitudin porta. Integer erat nibh, venenatis non dui ac, malesuada vulputate urna. 
 
-service1: FLOOR CARE
-service1_desc: Maintain your floors and ensure a healthy and safe environment in your establishment while saving big on repairs and maintenance at the same time!
+service1: 2D & 3D Rendering
+service1_desc: Donec in ullamcorper leo. Vivamus ultrices viverra felis, a porttitor odio. Donec massa metus, lacinia eget lacus vel, vestibulum sollicitudin neque. Phasellus eget turpis tincidunt mauris sollicitudin porta. Integer erat nibh, venenatis non dui ac, malesuada vulputate urna. 
 
-service2: COMMERCIAL CLEANING
-service2_desc: We service the Montreal and grand Montreal region offering high-quality, professional cleaning, and disinfection services to small & medium commercial clients and concierge services to condo associations.
+service2: 3D Tours & Videos
+service2_desc: Donec in ullamcorper leo. Vivamus ultrices viverra felis, a porttitor odio. Donec massa metus, lacinia eget lacus vel, vestibulum sollicitudin neque. Phasellus eget turpis tincidunt mauris sollicitudin porta. Integer erat nibh, venenatis non dui ac, malesuada vulputate urna. 
 
-service3: RESIDENTIAL CLEANING
-service3_desc: We actively promote and encourage the use of green cleaning materials and solutions to ensure your home is sparkling and most importantly safe!
+service3: Architectural Drawing
+service3_desc: Donec in ullamcorper leo. Vivamus ultrices viverra felis, a porttitor odio. Donec massa metus, lacinia eget lacus vel, vestibulum sollicitudin neque. Phasellus eget turpis tincidunt mauris sollicitudin porta. Integer erat nibh, venenatis non dui ac, malesuada vulputate urna. 
 
 
-cta: QUESTIONS ABOUT OUR PRODUCTS OR SERVICES?
+cta: QUESTIONS ABOUT OUR SERVICES?
 cta_sub: 
 cta_link: /contact
 ---

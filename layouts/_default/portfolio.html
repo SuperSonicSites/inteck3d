@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{- partial "subheader.html" .}}
+<section>
+    <div class="gallery" id="photos">
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}img/1-sm.jpg/"
+        data-src="{{ $.Site.BaseURL}}img/1.jpg/"  
+        class="gallery__img lazyload" 
+        alt="Alt"
+        data-sizes="auto"
+        data-srcset="{{ $.Site.BaseURL}}img/1-sm.jpg 5000w,
+        {{ $.Site.BaseURL}}img/1.jpg"
+        >
+      </figure>
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}img/2-sm.jpg/"
+        data-src="{{ $.Site.BaseURL}}img/2.png/" 
+        class="gallery__img lazyload" 
+        alt="Alt"
+        data-sizes="auto"
+        data-srcset="{{ $.Site.BaseURL}}img/2-sm.jpg 500w,
+        {{ $.Site.BaseURL}}img/2.png"
+        >
+      </figure>
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}img/3-sm.jpg"
+        data-src="{{ $.Site.BaseURL}}img/3.png"
+        class="gallery__img lazyload" 
+        alt="Alt"
+        data-sizes="auto"
+        data-srcset="{{ $.Site.BaseURL}}img/3-sm.jpg 500w,
+        {{ $.Site.BaseURL}}img/3.png"
+        >
+      </figure>
+    </div>
+  </section>
+{{- partial "cta.html" .}}
+{{ end }}

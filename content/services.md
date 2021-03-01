@@ -1,23 +1,26 @@
 ---
-title: Residential & Commercial Cleaning Services
-description: We offer floor care, residential and commercial cleaning services in the greater Montreal area. Get a free quote today!
+title: Architectural Visualization Services
+description: 
 bannerh1: Our Services
 layout: services
 
-Service1: Floor Care Services
-Service1_desc: Professionally clean your floors and ensure a healthy and safe environment for you, your team, and your clients, while saving the planet at the same time. Save thousands of dollars in repairs and replacements by prolonging the life of your floors for years with proper care at a fraction of the cost!
-service1_bonus1: FREE disinfection or assessment for your premises - Minimum $300 Value 
-service1_bonus2: FREE COVID-19 Preventative control plan template - $100 Value
-service1_bonus3: DISCOUNT VOUCHERS for eCommerce shop and all their staff!
+Service1: Renovation Visualization
+Service1_desc: "Proin ornare pulvinar felis vitae feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis eu luctus ligula. Donec ullamcorper quis purus cursus scelerisque. Sed blandit vestibulum eros, id tempor magna lacinia ut. Morbi iaculis blandit ex vulputate tristique. Vivamus placerat vel eros sed interdum. Nunc suscipit ligula odio, non congue erat maximus sit amet. Ut enim est, accumsan quis ullamcorper nec, lacinia ut ipsum. Sed tempor diam vel diam rutrum sollicitudin at vitae magna. Nulla facilisi. Sed pretium, metus eu tincidunt accumsan, ligula leo ullamcorper eros, id venenatis purus purus id eros. Aenean at nisl ac lacus porta pretium ac vitae dui. Suspendisse dapibus justo ac pharetra pulvinar.<br><br>
 
-service2: Commercial Cleaning Services
-service2_desc: Regardless if you need a one-time deep cleaning and disinfection of your facility or regular maintenance, we are there for you! We service the Montreal and grand Montreal region offering high quality, professional cleaning, and disinfection services to small to medium commercial clients and condo associations.<br><br>
+Vivamus volutpat vulputate sem, a malesuada lacus tincidunt id. Sed bibendum nisl quis ultricies mollis. Aenean sed laoreet massa. Aenean ac eros metus. Fusce congue turpis rhoncus est interdum ultrices ac ut mi. Duis pellentesque rhoncus tincidunt. Aenean at neque iaculis tortor dignissim egestas. Sed placerat semper ex, non malesuada leo blandit nec. Nunc faucibus tincidunt nunc ut congue. In venenatis ipsum at ante condimentum laoreet. Proin finibus sem scelerisque tellus mollis bibendum. Cras pretium non leo et malesuada. Etiam molestie nisl a diam placerat pulvinar. Maecenas dictum leo blandit magna tempor elementum. Nulla ultrices vitae diam eu posuere."
 
-service2_desc2: <small>Despite the current situation we still strive to minimize the use of harsh chemicals that negatively impact the environment and our health! Disinfection has indeed become a vital part of our “new normal” and at least in the short-term, it seems to be inevitable in public and shared areas. We, therefore, try to do our best in selecting the least harmful solutions.</small>
-service3: Residential Green Cleaning
-service3_desc: Saving the planet one home at a time! We use innovative and sustainable green cleaning materials to ensure that your homes are safe and sparkling clean each and every time! We offer FREE estimation to ensure we fully understand your requirements and provide an all-inclusive price per visit tailored to your specific needs and requirements.<br><br>Just book us when you need us and we will be there to give you a hand with everything you need!<br><br>No budget for a regular cleaner? We’ve got you covered! Our one-time professional cleaning service is the perfect solution!<br><br>No hidden fees & no contracts!!
+service2: "Dream Home Visualization"
+service2_desc: "Proin ornare pulvinar felis vitae feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis eu luctus ligula. Donec ullamcorper quis purus cursus scelerisque. Sed blandit vestibulum eros, id tempor magna lacinia ut. Morbi iaculis blandit ex vulputate tristique. Vivamus placerat vel eros sed interdum. Nunc suscipit ligula odio, non congue erat maximus sit amet. Ut enim est, accumsan quis ullamcorper nec, lacinia ut ipsum. Sed tempor diam vel diam rutrum sollicitudin at vitae magna. Nulla facilisi. Sed pretium, metus eu tincidunt accumsan, ligula leo ullamcorper eros, id venenatis purus purus id eros. Aenean at nisl ac lacus porta pretium ac vitae dui. Suspendisse dapibus justo ac pharetra pulvinar.<br><br>
 
-cta: QUESTIONS ABOUT OUR PRODUCTS OR SERVICES?
+Vivamus volutpat vulputate sem, a malesuada lacus tincidunt id. Sed bibendum nisl quis ultricies mollis. Aenean sed laoreet massa. Aenean ac eros metus. Fusce congue turpis rhoncus est interdum ultrices ac ut mi. Duis pellentesque rhoncus tincidunt. Aenean at neque iaculis tortor dignissim egestas. Sed placerat semper ex, non malesuada leo blandit nec. Nunc faucibus tincidunt nunc ut congue. In venenatis ipsum at ante condimentum laoreet. Proin finibus sem scelerisque tellus mollis bibendum. Cras pretium non leo et malesuada. Etiam molestie nisl a diam placerat pulvinar. Maecenas dictum leo blandit magna tempor elementum. Nulla ultrices vitae diam eu posuere."
+
+
+service3: Large Project Visualization
+service3_desc: "Proin ornare pulvinar felis vitae feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis eu luctus ligula. Donec ullamcorper quis purus cursus scelerisque. Sed blandit vestibulum eros, id tempor magna lacinia ut. Morbi iaculis blandit ex vulputate tristique. Vivamus placerat vel eros sed interdum. Nunc suscipit ligula odio, non congue erat maximus sit amet. Ut enim est, accumsan quis ullamcorper nec, lacinia ut ipsum. Sed tempor diam vel diam rutrum sollicitudin at vitae magna. Nulla facilisi. Sed pretium, metus eu tincidunt accumsan, ligula leo ullamcorper eros, id venenatis purus purus id eros. Aenean at nisl ac lacus porta pretium ac vitae dui. Suspendisse dapibus justo ac pharetra pulvinar.<br><br>
+
+Vivamus volutpat vulputate sem, a malesuada lacus tincidunt id. Sed bibendum nisl quis ultricies mollis. Aenean sed laoreet massa. Aenean ac eros metus. Fusce congue turpis rhoncus est interdum ultrices ac ut mi. Duis pellentesque rhoncus tincidunt. Aenean at neque iaculis tortor dignissim egestas. Sed placerat semper ex, non malesuada leo blandit nec. Nunc faucibus tincidunt nunc ut congue. In venenatis ipsum at ante condimentum laoreet. Proin finibus sem scelerisque tellus mollis bibendum. Cras pretium non leo et malesuada. Etiam molestie nisl a diam placerat pulvinar. Maecenas dictum leo blandit magna tempor elementum. Nulla ultrices vitae diam eu posuere."
+
+cta: QUESTIONS ABOUT OUR SERVICES?
 cta_sub: 
 cta_link: /contact
 ---
