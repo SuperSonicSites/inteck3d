@@ -1,0 +1,254 @@
+{{ define "main" }}
+<header class="hero is-fullheight is-bold gradient-background home">
+
+  <div class="hero-body overlay">
+
+    <div class="container is-flex is-column">
+      <div class="columns">
+        <div class="column is-8 has-text-white is-flex is-column is-justified-center">
+
+          <p class="is-size-4 has-text-uppercase pl-1 has-text-weight-bold has-text-white has-text-shadow"
+            data-aos="fade-right" data-aos-duration="800">{{ .Params.hero1 | safeHTML }}</p>
+
+          <h1 class="title is-size-1 my-3 has-text-white has-text-shadow" data-aos="fade" data-aos-delay="500"
+            data-aos-duration="800">
+            {{ .Params.hero2 | safeHTML }}
+          </h1>
+
+          <h2 class="subtitle mt-1 is-size-3 has-text-white has-text-shadow " data-aos="fade-up" data-aos-delay="1000"
+            data-aos-duration="800">
+            {{ .Params.hero3 | safeHTML }}
+          </h2>
+          <div class="is-flex is-row is-column-touch" data-aos="fade" data-aos-delay="1500" data-aos-duration="800">
+            <div class="mb-2 mr-2">
+              {{ if eq .Site.Language.Lang "fr" }}
+              <a class="button is-primary" title="Découvrez Nos Produits"
+                href="{{ $.Site.BaseURL }}fr/produits/">Découvrez Nos Produits</a>
+              {{ else }}
+              <a class="button is-primary" title="Discover for Products" href="{{ $.Site.BaseURL }}products/">Discover
+                Our Products</a>
+              {{ end }}
+
+            </div>
+            <div class="">
+              {{ if eq .Site.Language.Lang "fr" }}
+              <a class="button is-primary" title="Découvrez Nos Services"
+                href="{{ $.Site.BaseURL }}fr/services/">Découvrez Nos Services</a>
+              {{ else }}
+              <a class="button is-primary" title="Discover Our Services" href="{{ $.Site.BaseURL }}services/">Discover
+                Our Services</a>
+              {{ end }}
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</header>
+<section id="benefits-intro" class="section mt-5 has-background-white has-text-dark has-text-weight-bold">
+  <div class="container">
+    <div class="is-flex is-column is-justified-center is-aligned-center">
+      <h2 class="is-size-1 has-text-centered has-text-weight-bold pb-5">{{ .Params.heading1 }}</h2>
+      <p class="block has-text-centered has-text-weight-normal">{{ .Params.heading1_sub }}
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="benefits" class="section">
+  <div class="container">
+
+    <div class="columns">
+
+      <div class="column">
+        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+          data-aos-duration="800">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#paw"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit2 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.benefit2_desc }}</p>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+          data-aos-duration="800">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#leaf"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit1 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.benefit1_desc }}</p>
+        </div>
+
+      </div>
+
+      
+
+      <div class="column">
+        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+          data-aos-duration="800">
+          <svg class="feature_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#recycle"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit3 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.benefit3_desc }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="ekocleaner" class="section is-small" data-aos="fade-up" data-aos-duration="800">
+
+  <div class="container">
+    <h2 class="has-text-centered is-size-2 mb-5 pb-5 has-text-weight-bold">{{ .Params.heading2 | safeHTML }}</h2>
+    <div class="columns">
+      <div class="column is-8">
+        
+        <p class="pr-5-desktop has-text-centered-touch">{{ .Params.heading2_sub | safeHTML }}</p>
+      </div>
+      <div class="column is-4 is-flex is-column is-aligned-center is-justified-center">
+        <img src="{{ $.Site.BaseURL }}img/ekocleaner.jpg" alt="Ekocleaner">
+        <small class="has-text-centered pb-5">{{ .Params.order_disclaimer }} </small>
+        <a href="https://www.cratejoy.com/subscription-box/the-ekocleaner-subscription-ecoaccentbyproficleanca/"
+          class="button is-primary">{{ .Params.order }}</a>
+      </div>
+    </div>
+    <div class="my-5 py-5">
+      <h2 class="has-text-centered is-size-2 mb-5 pb-5 has-text-weight-bold">{{ .Params.heading3 }}</h2>
+      <div class="columns">
+        <div class="column is-flex is-justified-center is-aligned-center"><img
+            src="{{ $.Site.BaseURL }}img/science1.jpg" alt="Ekocleaner Scientific Studies"></div>
+        <div class="column is-flex is-justified-center is-aligned-center"><img
+            src="{{ $.Site.BaseURL }}img/science2.jpg" alt="Ekocleaner Scientific Studies"></div>
+        <div class="column is-flex is-justified-center is-aligned-center"><img
+            src="{{ $.Site.BaseURL }}img/science3.jpg" alt="Ekocleaner Scientific Studies"></div>
+        <div class="column is-flex is-justified-center is-aligned-center"><img
+            src="{{ $.Site.BaseURL }}img/science4.jpg" alt="Ekocleaner Scientific Studies"></div>
+        <div class="column is-flex is-justified-center is-aligned-center"><img
+            src="{{ $.Site.BaseURL }}img/science5.jpg" alt="Ekocleaner Scientific Studies"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimonials" class="section is-medium has-text-white testimonials has-background-primary">
+  <div class="container">
+    <h2 class="has-text-centered is-size-1 has-text-uppercase has-text-weight-bold pb-5 mb-5">{{ i18n "testimonials" }}</h2>
+
+    <div class="columns is-5 " data-aos="fade-up" data-aos-duration="800">
+      <div class="column">
+        <div class="testimonial testimonial_1">
+          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial1_comment }}</h2>
+          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial1_name }}</h2>
+          {{- partial "stars.html" .}}
+          <p class="block testimonial__text">{{ .Params.Testimonial1 }}</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="testimonial testimonial_2">
+          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial2_comment }}</h2>
+          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial2_name }}</h2>
+          {{- partial "stars.html" .}}
+          <p class="block testimonial__text">{{ .Params.Testimonial2 }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-5" data-aos="fade-up" data-aos-duration="800">
+      <div class="column">
+        <div class="testimonial testimonial_1">
+          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial3_comment }}</h2>
+          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial3_name }}</h2>
+          {{- partial "stars.html" .}}
+          <p class="block testimonial__text">{{ .Params.Testimonial3 }}</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="testimonial testimonial_2">
+          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial4_comment }}</h2>
+          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial4_name }}</h2>
+          {{- partial "stars.html" .}}
+          <p class="block testimonial__text">{{ .Params.Testimonial4 }}</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section is-medium">
+  <div class="container">
+    <div class="pb-5 mb-5">
+    <h2 class="is-size-1 has-text-centered has-text-weight-bold">SERVICES</h2>
+  </div>
+    <div class="columns">
+      <div class="column">
+        <div class="service_box" data-aos="fade-up"
+          data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <svg class="home_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#vacuum"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service1 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service1_desc }}</p>
+        </div>
+          <div class="has-text-centered">
+            {{ if eq .Site.Language.Lang "fr" }}
+              <a href="/fr/services/#floorcare" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ else }}
+              <a href="/services/#floorcare" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ end }}
+            
+          </div>
+        </div>
+
+      </div>
+
+      <div class="column">
+        <div class="service_box " data-aos="fade-up"
+          data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <svg class="home_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#building"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service2 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service2_desc }}</p>
+        </div>
+        <div class="has-text-centered">
+          {{ if eq .Site.Language.Lang "fr" }}
+              <a href="/fr/services/#commercial" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ else }}
+              <a href="/services/#commercial" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ end }}
+        </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="service_box" data-aos="fade-up"
+          data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <svg class="home_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#home-heart"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service3 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service3_desc }}</p>
+          </div>
+          <div class="has-text-centered">
+            {{ if eq .Site.Language.Lang "fr" }}
+            <a href="/fr/services/#residential/" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ else }}
+            <a href="/services/#residential/" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ end }}
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{- partial "cta.html" .}}
+{{ end }}

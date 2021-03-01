@@ -1,0 +1,23 @@
+.service_icon {
+    width: 35px;
+    height: 35px;
+    fill: $secondary;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.warning_icon {
+    width: 20px;
+    height: 20px;
+    fill: $secondary;
+    margin-right: 10px;
+}
+@media(max-width: 768px) {
+#floorcare, #commercial, #residential {
+  margin-top: -70px;
+}
+.floorcare_content  {
+  margin-bottom: 70px;
+}
+}

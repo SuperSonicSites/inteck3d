@@ -1,0 +1,104 @@
+{{ define "main" }}
+{{- partial "subheader.html" .}}
+
+<section class="section is-medium mb-6">
+
+    <div class="container">
+      <div class="columns">
+        <div class="column is-12">
+
+          <h2 class="title is-size-2 has-text-uppercase">{{ i18n "contactus" }}</h2>
+          <p class="block py-2">{{ .Params.intro }}</p>
+          
+          <form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
+          
+            <div class="field">
+          
+              <label class="label">{{ i18n "firstname" }} *</label>
+                 
+              <div class="control">
+          
+                <input id="form_name" class="input" placeholder="e.g Alex Smith" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+          
+              </div>
+          
+            </div>
+          
+          <div class="field">
+            
+            <label class="label">{{ i18n "email" }} *</label>
+            
+            <div class="control">
+            
+              <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required.">
+            
+            </div>
+          
+          </div>
+
+          <div class="field">
+            
+            <label class="label">{{ i18n "phone" }}</label>
+            
+            <div class="control">
+            
+              <input class="input" type="tel" placeholder="e.g. +1-234-567-7890">
+            
+            </div>
+          
+          </div>
+
+          <div class="field">
+            
+            <label class="label">{{ i18n "address" }} </label>
+            
+            <div class="control">
+            
+              <input class="input" type="address" placeholder="e.g. 9 Rue Saint-Pierre, Chateauguay, QC J6J 0A2">
+            
+            </div>
+          
+          </div>
+
+
+          <div class="field">
+            <label class="label">How may we help you?</label>
+
+                <div class="control">
+                  <div class="select is-fullwidth">
+                    <select>
+                      <option>General Questions</option>
+                      <option>Residential Services</option>
+                      <option>Return Container</option>
+                      <option>Commercial Services</option>
+                      <option>Floor Cleaning Services</option>
+                      <option>Subscription Questions</option>
+                      <option>Free Quote</option>
+                    </select>
+                  </div>
+                </div>
+
+          </div>
+
+          <div class="field">
+
+          <label for="form_message"><strong>Message *</strong></label>
+
+              <textarea id="form_message" name="message" class="textarea" rows="4" required data-error="Please,leave us a message."></textarea>
+       
+        </div>
+        <div class="is-flex is-justified-start">
+        <input type="submit" class="button is-primary" value="{{ i18n "send" }}">
+      </div>
+        </form>
+        </div>
+      </div>
+
+        
+    <p class="mt-5 pt-5">{{ .Params.returnpolicy | safeHTML }}</p>
+    </div>
+
+
+</section>  
+
+{{ end }}

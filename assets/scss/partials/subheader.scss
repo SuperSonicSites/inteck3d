@@ -1,0 +1,17 @@
+.subheader {
+    background-image: url(../img/download3.jpg);
+    background-position: center;
+}
+.subheader .overlay {
+        background-color: rgba(0,0,0,0.45);
+        padding-top: 150px;
+}
+@media (max-width: 1024px) {
+
+        h1 {
+            padding: 50px 0;
+        }
+        .subheader .overlay {
+            padding-top: 90px;
+    }
+}
