@@ -4,13 +4,12 @@
     justify-content: center;
     max-height: 7.5rem;
     min-height: 2.5rem;
-    background-color: $secondary;
   }
   .navbar-item {
     transition: all .3s;
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    color: $secondary;
 
     .phone-item {
       font-size: 15px !important;
@@ -20,12 +19,12 @@
       }
       
       a:hover {
-        color: white;
+        color: $primary;
       } 
     }
   }
 .contact_icon {
-  fill: white !important;
+  fill: $secondary !important;
 }
 a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
  color: white;

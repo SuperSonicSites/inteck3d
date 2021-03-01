@@ -34,6 +34,11 @@
   margin-bottom: 2rem;
   fill: $secondary !important;
 }
+.contact_icon {
+  width: 20px;
+  height: 20px;
+  fill: $primary !important;
+}
 .box__feature {
     padding: 0 20px;
     
@@ -48,7 +53,7 @@
     background-size: cover;
     
   }
-  
+ 
   .testimonial {
     background: white;
     border-radius: 2px;

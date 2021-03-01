@@ -51,6 +51,9 @@ p {
     letter-spacing: 1px;
     padding: 0px;
   }
+.has-text-capitalized {
+    text-transform: capitalize;
+}
 @media(max-width: 768px) {
     .is-size-1 {
         font-size: 2rem !important;
