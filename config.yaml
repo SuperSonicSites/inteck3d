@@ -5,7 +5,7 @@ relativeURLs: true
 
 title: ProfiClean
 description: ProfiClean offers exceptional cleaning services and probiotic cleaning products. For residential and commercial services, and products for your home, call today!
-contentDir: content/en
+
 menu:
   main:
     - name: Home
