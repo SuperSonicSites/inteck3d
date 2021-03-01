@@ -43,6 +43,7 @@
         </div>
 
       </div>
+      
     </div>
   </div>
 
@@ -54,53 +55,73 @@
       <p class="block has-text-centered has-text-weight-normal">{{ .Params.heading1_sub }}
       </p>
     </div>
-  </div>
-</section>
-
-<section id="benefits" class="section">
-  <div class="container">
-
     <div class="columns">
-
       <div class="column">
-        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+        <div class="service_box" data-aos="fade-up"
           data-aos-duration="800">
-          <svg class="feature_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#home"></use>
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <svg class="home_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#cube"></use>
           </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit2 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.benefit2_desc }}</p>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service1 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service1_desc }}</p>
         </div>
-      </div>
-
-      <div class="column">
-        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
-          data-aos-duration="800">
-          <svg class="feature_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#search-dollar"></use>
-          </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit1 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.benefit1_desc }}</p>
+          <div class="has-text-centered">
+            {{ if eq .Site.Language.Lang "fr" }}
+              <a href="/fr/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ else }}
+              <a href="/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ end }}
+            
+          </div>
         </div>
 
       </div>
 
-      
+      <div class="column">
+        <div class="service_box " data-aos="fade-up"
+          data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <svg class="home_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#play-circle"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service2 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service2_desc }}</p>
+        </div>
+        <div class="has-text-centered">
+          {{ if eq .Site.Language.Lang "fr" }}
+              <a href="/fr/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ else }}
+              <a href="/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ end }}
+        </div>
+        </div>
+      </div>
 
       <div class="column">
-        <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up"
+        <div class="service_box" data-aos="fade-up"
           data-aos-duration="800">
-          <svg class="feature_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#eye"></use>
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <svg class="home_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#pencil-ruler"></use>
           </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.benefit3 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.benefit3_desc }}</p>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service3 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service3_desc }}</p>
+          </div>
+          <div class="has-text-centered">
+            {{ if eq .Site.Language.Lang "fr" }}
+            <a href="/fr/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ else }}
+            <a href="/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ end }}
+        </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section id="ekocleaner" class="section is-small" data-aos="fade-up" data-aos-duration="800">
+
+<section class="section is-medium" data-aos="fade-up" data-aos-duration="800">
 
   <div class="container pb-5 mb-5">
     <h2 class="has-text-centered is-size-1 mb-5 pb-5 has-text-weight-bold">{{ .Params.heading2 | safeHTML }}</h2>
@@ -164,7 +185,7 @@
 <section class="section is-medium">
   <div class="container">
     <div class="pb-5 mb-5">
-    <h2 class="is-size-1 has-text-centered has-text-weight-bold">SERVICES</h2>
+    <h2 class="is-size-1 has-text-centered has-text-weight-bold">TYPE OF PROJECTS</h2>
   </div>
     <div class="columns">
       <div class="column">
@@ -172,10 +193,10 @@
           data-aos-duration="800">
           <div class="service_content is-flex is-column is-justified-center is-aligned-center">
           <svg class="home_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#cube"></use>
+            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#tools"></use>
           </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service1 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.service1_desc }}</p>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service4 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service4_desc }}</p>
         </div>
           <div class="has-text-centered">
             {{ if eq .Site.Language.Lang "fr" }}
@@ -194,10 +215,10 @@
           data-aos-duration="800">
           <div class="service_content is-flex is-column is-justified-center is-aligned-center">
           <svg class="home_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#play-circle"></use>
+            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#house-night"></use>
           </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service2 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.service2_desc }}</p>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service5 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service5_desc }}</p>
         </div>
         <div class="has-text-centered">
           {{ if eq .Site.Language.Lang "fr" }}
@@ -214,10 +235,10 @@
           data-aos-duration="800">
           <div class="service_content is-flex is-column is-justified-center is-aligned-center">
           <svg class="home_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#pencil-ruler"></use>
+            <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#hotel"></use>
           </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service3 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.service3_desc }}</p>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service6 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service6_desc }}</p>
           </div>
           <div class="has-text-centered">
             {{ if eq .Site.Language.Lang "fr" }}

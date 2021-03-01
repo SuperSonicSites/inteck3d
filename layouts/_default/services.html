@@ -7,6 +7,7 @@
             <div class="column is-8 floorcare_content">
 
                 <h2 class="is-size-2 has-text-weight-bold has-text-uppercase">{{ .Params.Service1 }}</h2>
+                <div class="divider"></div>
                 <p class="block">{{ .Params.Service1_desc | safeHTML }}</p>
 
                 <div class="mb-5"></div>
@@ -26,6 +27,7 @@
             <div class="column is-8 floorcare_content">
 
                 <h2 class="is-size-2 has-text-weight-bold has-text-uppercase">{{ .Params.Service2 }}</h2>
+                <div class="divider"></div>
                 <p class="block">{{ .Params.Service2_desc | safeHTML }}</p>
                 
 
@@ -47,6 +49,7 @@
             <div class="column is-8 floorcare_content">
 
                 <h2 class="is-size-2 has-text-weight-bold has-text-uppercase">{{ .Params.Service3 }}</h2>
+                <div class="divider"></div>
                 <p class="block">{{ .Params.Service3_desc | safeHTML }}</p>
                 <div class="mb-5"></div>
                 {{ if eq .Site.Language.Lang "fr" }}

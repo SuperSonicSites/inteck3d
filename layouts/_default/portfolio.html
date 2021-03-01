@@ -38,10 +38,58 @@
     <div class="container">
     <h2 class="is-size-2 has-text-weight-bold has-text-uppercase">{{ .Params.intro }}</h2>
     <p class="block">{{ .Params.intro_text | safeHTML}}</p>
-    <div class="responsiveIframe">
+    <div class="responsiveIframe has-shadow">
         <iframe src="https://player.vimeo.com/video/518269984" width="640" height="360" frameborder="0" class="lazyload" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <div class="has-text-centered mt-5">
+    <a href="https://www.inteck3d.com/tour/forte/index.html" class="button is-primary" target="_blank">Experience the 3D Tour!</a>
 </div>
+    <div class="columns">
+        <div class="column">
+
+        </div>
+        <div class="column">
+
+        </div>
+        <div class="column">
+
+        </div>
+    </div>
+</div>
+</section>
+<section>
+    <div class="gallery" id="photos">
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}img/4-sm.jpg/"
+        data-src="{{ $.Site.BaseURL}}img/4.jpg/"  
+        class="gallery__img lazyload" 
+        alt="Alt"
+        data-sizes="auto"
+        data-srcset="{{ $.Site.BaseURL}}img/4-sm.jpg 5000w,
+        {{ $.Site.BaseURL}}img/4.jpg"
+        >
+      </figure>
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}img/5-sm.jpg/"
+        data-src="{{ $.Site.BaseURL}}img/5.png/" 
+        class="gallery__img lazyload" 
+        alt="Alt"
+        data-sizes="auto"
+        data-srcset="{{ $.Site.BaseURL}}img/5-sm.jpg 500w,
+        {{ $.Site.BaseURL}}img/5.png"
+        >
+      </figure>
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}img/6-sm.jpg"
+        data-src="{{ $.Site.BaseURL}}img/6.jpg"
+        class="gallery__img lazyload" 
+        alt="Alt"
+        data-sizes="auto"
+        data-srcset="{{ $.Site.BaseURL}}img/6-sm.jpg 500w,
+        {{ $.Site.BaseURL}}img/6.jpg"
+        >
+      </figure>
+    </div>
 
 </section>
 {{- partial "cta.html" .}}
