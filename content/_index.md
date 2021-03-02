@@ -2,12 +2,12 @@
 title: Architectural Visualization Specialists
 description: ProfiClean offers exceptional cleaning services and probiotic cleaning products. For residential and commercial services, and products for your home, call today!
 
-hero1: 3D Architectural Rendering
+hero1: 3D Architectural Rendering with
 hero2: Inteck3d
 hero3: See your vision. Expand the potential.
 
 heading1: See it before you Build it.
-heading1_sub: "Do you want to renovate, pre-sell your condo or housing development, or finally build your dream home? What if you could see or showcase your space before construction even begins?Using sophisticated software, Inteck3D creates high end images and tours of your home in stunning virtual reality. If you’re in the housing business, you can showcase AND sell your homes before the foundation is even laid. And if you’re building that dream kitchen or bathroom, not only can you see your vision, but you can also see and experiment with paint hues, cabinets, counters, and tiles."
+heading1_sub: "Do you want to renovate, pre-sell your condo or housing development, or finally build your dream home? What if you could see or showcase your space before construction even begins? Using sophisticated software, Inteck3D creates high end images and tours of your home in stunning virtual reality. If you’re in the housing business, you can showcase AND sell your homes before the foundation is even laid. And if you’re building that dream kitchen or bathroom, not only can you see your vision, but you can also see and experiment with paint hues, cabinets, counters, and tiles."
 
 service1: 2D & 3D Rendering
 service1_desc: "We can build a 3D virtual reality from your already existing 2D drafting or vice versa: produce 2D blueprints ready for construction from your envisioned 3D space. Quality can range from general to detailed - we are versatile and ready to meet your needs."
