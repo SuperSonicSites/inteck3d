@@ -1,0 +1,54 @@
+{{ define "main" }}
+{{- partial "subheader.html" .}}
+<section class="section is-medium">
+    <div class="container">
+        <h2 class="is-size-2 has-text-weight-bold has-text-capitalized">{{ .Params.heading }}</h2>
+        <p class="block">{{ .Params.desc | safeHTML}}</p>
+        <div class="responsiveIframe has-shadow">
+          <iframe src="{{ .Params.video }}" width="640" height="360" frameborder="0" class="lazyload"
+            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="has-text-centered mt-5 pt-5">
+            <a href="{{ .Params.tour_link }}" class="button is-primary" target="_blank">Experience the
+              3D Tour!</a>
+          </div>
+    </div>
+</section>
+<section>
+    <div class="gallery" id="photos">
+  
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}{{ .Params.photo1 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo1 }}" class="gallery__img lazyload"
+          alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo1 }} 500w,
+            {{ $.Site.BaseURL}}{{ .Params.photo1 }}">
+      </figure>
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}{{ .Params.photo2 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo2 }}" class="gallery__img lazyload"
+          alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo2 }} 500w,
+            {{ $.Site.BaseURL}}{{ .Params.photo2 }}">
+      </figure>
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}{{ .Params.photo3 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo3 }}" class="gallery__img lazyload"
+        alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo3 }} 500w,
+          {{ $.Site.BaseURL}}{{ .Params.photo3 }}">
+      </figure>
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}{{ .Params.photo4 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo1 }}" class="gallery__img lazyload"
+        alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo4 }} 500w,
+          {{ $.Site.BaseURL}}{{ .Params.photo4 }}">
+      </figure>
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}{{ .Params.photo5 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo5 }}" class="gallery__img lazyload"
+        alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo5 }} 500w,
+          {{ $.Site.BaseURL}}{{ .Params.photo5 }}">
+      </figure>
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}{{ .Params.photo6 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo6 }}" class="gallery__img lazyload"
+        alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo6 }} 500w,
+          {{ $.Site.BaseURL}}{{ .Params.photo6 }}">
+      </figure>
+    </div>
+  
+  </section>
+{{- partial "cta.html" .}}
+{{ end }}
