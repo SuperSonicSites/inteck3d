@@ -1,7 +1,7 @@
 ---
-title: Inteck3d Portfolio 1
+title: Inteck3d Portfolio 3
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis, diam ut pretium hendrerit, ligula mauris laoreet nibh, eget convallis augue lorem a dolor. Suspendisse varius sem id dolor consectetur tempus. 
-bannerh1: Project 1
+bannerh1: Project 3
 layout: post
 slug: project1
 thumbnail: img/4.jpg
