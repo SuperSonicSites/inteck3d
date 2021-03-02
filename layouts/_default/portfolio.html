@@ -21,7 +21,7 @@
         <img src="{{ $.Site.BaseURL}}{{ $post.Params.thumbnail }}" alt="{{ $post.Params.title }}" class="has-shadow">
       </div>
       <div class="column is-8">
-        <a href="{{ $post.Params.slug}}"><h4 class="is-size-3">{{ $post.Params.title }}</h4></a>
+        <a href="{{ $post.Params.slug}}"><h4 class="is-size-3 has-text-weight-bold has-text-capitalized">{{ $post.Params.title }}</h4></a>
         <p class="block">{{ $post.Params.description | safeHTML }}</p>
         <a href="{{ $post.Params.slug}}" class="button is-primary">See Full Details</a>
       </div>
