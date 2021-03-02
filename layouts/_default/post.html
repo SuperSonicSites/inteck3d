@@ -4,7 +4,7 @@
     <div class="container">
         <h2 class="is-size-2 has-text-weight-bold has-text-capitalized">{{ .Params.heading }}</h2>
         <div class="divider"></div>
-        <p class="block">{{ .Params.desc | safeHTML}}</p>
+        <p class="block pt-5">{{ .Params.desc | safeHTML}}</p>
         <div class="responsiveIframe has-shadow">
           <iframe src="{{ .Params.video }}" width="640" height="360" frameborder="0" class="lazyload"
             allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

@@ -56,8 +56,14 @@ footer a {
 .is-aligned-center {
 	align-items: center;
 }
+.is-aligned-start {
+	align-items: flex-start;
+}
 .is-justified-center {
 	justify-content: center;
+}
+.is-justified-start {
+	justify-content: flex-start;
 }
 .is-justified-end {
 	justify-content: flex-end;

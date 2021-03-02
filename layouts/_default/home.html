@@ -15,7 +15,7 @@
             {{ .Params.hero2 | safeHTML }}
           </h1>
 
-          <h2 class="subtitle mt-1 is-size-3 has-text-white has-text-shadow " data-aos="fade-up" data-aos-delay="1000"
+          <h2 class="mt-1 mb-5 is-size-3 has-text-white has-text-shadow has-text-weight-bold" data-aos="fade-up" data-aos-delay="1000"
             data-aos-duration="800">
             {{ .Params.hero3 | safeHTML }}
           </h2>
@@ -52,7 +52,7 @@
   <div class="container">
     <div class="is-flex is-column is-justified-center is-aligned-center">
       <h2 class="is-size-1 has-text-centered has-text-weight-bold has-text-capitalized pb-5">{{ .Params.heading1 }}</h2>
-      <p class="block has-text-centered has-text-weight-normal">{{ .Params.heading1_sub }}
+      <p class="block has-text-centered has-text-weight-normal">{{ .Params.heading1_sub | safeHTML }}
       </p>
     </div>
     <div class="columns">
@@ -191,10 +191,31 @@
     <h2 class="is-size-1 has-text-centered has-text-weight-bold has-text-capitalized">Types Of Projects</h2>
   </div>
     <div class="columns">
+
+      <div class="column">
+        <div class="service_box " data-aos="fade-up"
+          data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-startr is-aligned-center">
+          <svg class="home_icon">
+            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#house-night"></use>
+          </svg>
+          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service5 }}</h3>
+          <p class="has-text-centered has-font-size-small">{{ .Params.service5_desc }}</p>
+        </div>
+        <div class="has-text-centered">
+          {{ if eq .Site.Language.Lang "fr" }}
+              <a href="/fr/services/#service2" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ else }}
+              <a href="/services/#service2" class="button is-primary">{{ i18n "learnmore" }}</a>
+              {{ end }}
+        </div>
+        </div>
+      </div>
+      
       <div class="column">
         <div class="service_box" data-aos="fade-up"
           data-aos-duration="800">
-          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <div class="service_content is-flex is-column is-justified-startr is-aligned-center">
           <svg class="home_icon">
             <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#tools"></use>
           </svg>
@@ -213,30 +234,12 @@
 
       </div>
 
-      <div class="column">
-        <div class="service_box " data-aos="fade-up"
-          data-aos-duration="800">
-          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
-          <svg class="home_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#house-night"></use>
-          </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service5 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.service5_desc }}</p>
-        </div>
-        <div class="has-text-centered">
-          {{ if eq .Site.Language.Lang "fr" }}
-              <a href="/fr/services/#service2" class="button is-primary">{{ i18n "learnmore" }}</a>
-              {{ else }}
-              <a href="/services/#service2" class="button is-primary">{{ i18n "learnmore" }}</a>
-              {{ end }}
-        </div>
-        </div>
-      </div>
+      
 
       <div class="column">
         <div class="service_box" data-aos="fade-up"
           data-aos-duration="800">
-          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+          <div class="service_content is-flex is-column is-justified-startr is-aligned-center">
           <svg class="home_icon">
             <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#hotel"></use>
           </svg>

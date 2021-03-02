@@ -84,9 +84,11 @@
     justify-content: space-between;
     align-items: center !important;
   }
+  .service_content {
+    min-height: 360px;
+  }
   .service_content p {
     margin-top: 20px;
-    min-height: 120px;
     padding-bottom: 20px;
   }
   .service_content {

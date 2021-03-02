@@ -1,26 +1,34 @@
 ---
-title: Cleaning Services & Probiotic Cleaning Products
+title: Architectural Visualization Specialists
 description: ProfiClean offers exceptional cleaning services and probiotic cleaning products. For residential and commercial services, and products for your home, call today!
 
-hero1: 3d Architectural Rendering
+hero1: 3D Architectural Rendering
 hero2: Inteck3d
-hero3: We Are Architectural Visualization Specialists
+hero3: See your vision. Expand the potential.
 
-heading1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-heading1_sub: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget augue ut sapien interdum cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque posuere, quam id pretium maximus, diam massa efficitur turpis, sed vestibulum felis libero ut leo. Vivamus commodo laoreet ante, vel mollis est pulvinar eget. Sed sodales rutrum magna, et dignissim quam pellentesque nec. Integer vulputate consequat arcu, in sollicitudin justo iaculis eu. In vel magna mi. Cras in nunc enim. Donec dui lacus, mattis ut leo eget, facilisis egestas lacus.
+heading1: See it before you Build it.
+heading1_sub: "Do you want to renovate, pre-sell your condo or housing development, or finally build your dream home? What if you could see or showcase your space before construction even begins?Using sophisticated software, Inteck3D creates high end images and tours of your home in stunning virtual reality. If you’re in the housing business, you can showcase AND sell your homes before the foundation is even laid. And if you’re building that dream kitchen or bathroom, not only can you see your vision, but you can also see and experiment with paint hues, cabinets, counters, and tiles."
 
 service1: 2D & 3D Rendering
-service1_desc: Donec in ullamcorper leo. Vivamus ultrices viverra felis, a porttitor odio. Donec massa metus, lacinia eget lacus vel, vestibulum sollicitudin neque. Phasellus eget turpis tincidunt mauris sollicitudin porta. Integer erat nibh, venenatis non dui ac, malesuada vulputate urna. 
+service1_desc: "We can build a 3D virtual reality from your already existing 2D drafting or vice versa: produce 2D blueprints ready for construction from your envisioned 3D space. Quality can range from general to detailed - we are versatile and ready to meet your needs."
 
 service2: 3D Tours & Videos
-service2_desc: Donec in ullamcorper leo. Vivamus ultrices viverra felis, a porttitor odio. Donec massa metus, lacinia eget lacus vel, vestibulum sollicitudin neque. Phasellus eget turpis tincidunt mauris sollicitudin porta. Integer erat nibh, venenatis non dui ac, malesuada vulputate urna. 
+service2_desc: "Showcase and market your space with a beautifully rendered video tour available in either Bronze, Gold, or Platinum quality. Or try a 360 self guided tour to envision your dream home - perfection is achievable when you can chew on the space from wall to wall, corner to corner."
 
 service3: Architectural Drawing
-service3_desc: Donec in ullamcorper leo. Vivamus ultrices viverra felis, a porttitor odio. Donec massa metus, lacinia eget lacus vel, vestibulum sollicitudin neque. Phasellus eget turpis tincidunt mauris sollicitudin porta. Integer erat nibh, venenatis non dui ac, malesuada vulputate urna. 
+service3_desc: "Our drawings aren’t just a sketch of your vision; they can make your plans a reality. Our specialists can produce architectural drawings that allow you to request permanent applications. Take our blueprints, give them to your builder and start construction right away!"
 
 
 heading2: What Can An Architectural Visualization Specialist Do For You?
-heading2_sub: "Donec sodales magna dolor, ac sollicitudin risus faucibus non. Nam non commodo leo, sit amet scelerisque orci. Praesent tristique sit amet lectus vel egestas. Integer quis varius turpis, sit amet ornare turpis. Donec pretium quam tellus. Donec mi turpis, vehicula eu dui ut, vehicula sollicitudin elit. Donec cursus bibendum nisi ac congue. Ut sodales nibh mauris, ut rhoncus metus rhoncus eu. Vestibulum faucibus lectus nulla, nec convallis felis vestibulum sed. Proin non varius arcu.<br><br>Quisque interdum laoreet tellus, semper ullamcorper massa iaculis eget. Vivamus sit amet volutpat ligula, eu accumsan erat. Pellentesque nisi erat, commodo quis enim eu, vulputate congue turpis. In scelerisque ullamcorper libero eu sagittis. Vivamus justo sapien, elementum in efficitur nec, laoreet et erat. Mauris commodo nisl sit amet luctus commodo. In consectetur consequat hendrerit. Curabitur quis interdum magna.<br><br>Nunc vel dui risus. Aliquam fringilla ante justo, non tincidunt arcu aliquet vel. Vivamus semper nisi at nunc euismod fermentum. Vivamus eu orci convallis, tempus enim ut, bibendum diam. Aenean ipsum mi, viverra at malesuada eget, sagittis eu elit. Cras tincidunt dolor ut lacinia accumsan."
+heading2_sub: "At Inteck3D, we’re all about service and what we can do for you. We offer a variety of different options from 2D drafting to 3D images, videos, and 360 tours. If you’re someone looking to build a dream house or a kitchen or basement renovation you’ll likely want a different product than a landlord wanting to showcase and market their condo or housing development.
+<br><br>
+<strong>Our Bronze</strong> quality images and video renders are perfect for visualizing spatial orientation and referencing. The renders can be produced almost instantaneously and are inexpensive, although not superb quality.
+<br><br>
+<strong>Gold</strong> quality renders are an affordable balance between the Bronze lower quality and the pristine quality of Platinum. Gold allows you to see textures, lighting, and colours in detail.
+<br><br>
+<strong>Platinum</strong> renders are perfect if you want to market and showcase a rental property, condo, or housing development. Potential prospects will be wowed by the clarity and details of your space captured in stunning virtual reality. Platinum pricing is the ideal choice if you can spread the cost over numerous units.
+<br><br>
+<strong>The 360 Tour</strong> is another fantastic product to help you market your rental property or secondary income suite. A Gold or Platinum video is a good way to catch interest but if your prospects want a more detailed look, the 360 self guided tour lets them take their time going through the whole house. If you’re doing a renovation and want to study it in detail, the 360 tour is also the best choice for you."
 
 Testimonial1_comment: "Working with you has been a game changer "
 Testimonial1_name: Katja Rimmi - Katja Rimmi Interiors
@@ -42,13 +50,13 @@ Testimonial4: I'm glad to have met Ivan and his crew back in 2019. In today's wo
 
 
 service4: Renovation Visualization
-service4_desc: Pellentesque posuere, quam id pretium maximus, diam massa efficitur turpis, sed vestibulum felis libero ut leo. Vivamus commodo laoreet ante, vel mollis est pulvinar eget.
+service4_desc: Having trouble imagining your open kitchen reno without that extra wall? Or wondering if a marble countertop is the right choice? Inteck takes your space dimensions and lets you experiment and see and exactly what your reno will look like. It’s easy to make those hard design decisions when you can actually see them in action!
 
 service5: Dream Home Visualization
-service5_desc: Pellentesque posuere, quam id pretium maximus, diam massa efficitur turpis, sed vestibulum felis libero ut leo. Vivamus commodo laoreet ante, vel mollis est pulvinar eget. 
+service5_desc: Inteck is a designer’s dream. Experiment with floor plans, walls, staircase design, the works, and nail down exactly what you envision your dream home to look like. We can even import data into our program so you can see how your actual furniture can look like in your dream space.
 
 service6: Large Project Visualization
-service6_desc: Pellentesque posuere, quam id pretium maximus, diam massa efficitur turpis, sed vestibulum felis libero ut leo. Vivamus commodo laoreet ante, vel mollis est pulvinar eget.
+service6_desc: If you’re looking for a way to market your condo or housing development and find prospects before construction is finished, Inteck can help. Showcase your condos or homes and wow your prospects with our stunning video rendered tours.
 
 cta: QUESTIONS ABOUT OUR SERVICES?
 cta_sub: 
