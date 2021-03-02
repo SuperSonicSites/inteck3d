@@ -13,12 +13,16 @@
   background-color: rgba(0,0,0,0.40);
  }
 }
+.overlay-white {
+  background-color: rgba(255,255,255,0.70);
+ }
 .has-text-shadow {
   text-shadow: 0 0 55px black !important;
 }
 .textured_bg {
-  background-color: #333333;
-  background-image: url("../img/bg.svg");
+  background-image: url("../img/bg2.jpg");
+  background-size: cover;
+  background-position: center;
   }
 .feature_icon {
     width: 90px;
