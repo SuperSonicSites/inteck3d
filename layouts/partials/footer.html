@@ -18,7 +18,7 @@
           <ul class="">
             {{ range .Site.Menus.main -}}
 
-            <li class="py-1 is-size-5"><a class="has-text-primary nav-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            <li class="py-1 is-size-5"><a class="has-text-white nav-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
 
             {{ end }}
 
@@ -85,7 +85,7 @@
 
           </svg>
 
-          <a href="tel:{{ $.Site.Params.schema.phone }}" class="has-text-primary pl-2">{{ $.Site.Params.schema.phone }}</a>
+          <a href="tel:{{ $.Site.Params.schema.phone }}" class="has-text-white pl-2">{{ $.Site.Params.schema.phone }}</a>
         </div>
 
         <div class="is-flex is-row is-aligned-center is-justified-center-touch mb-2">
@@ -96,7 +96,7 @@
               d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
           </svg>
 
-          <a href="mailto:{{ $.Site.Params.schema.email }}" class="pl-2 has-text-primary">{{ $.Site.Params.schema.email }}</a>
+          <a href="mailto:{{ $.Site.Params.schema.email }}" class="pl-2 has-text-white">{{ $.Site.Params.schema.email }}</a>
 
         </div>
 
