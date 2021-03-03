@@ -1,5 +1,5 @@
 ---
-title: Forte Home Marketing - Portfolio
+title: Forte Home Marketing
 description: This home was showcased for a developer for a presale.  Home was designed by an architect in Montreal, and Inteck3d Inc. was tasked to model the home, furnish it, and display the product for marketing material such that the buyer would have a full sense of the interior of the home.
 bannerh1: Forte Home
 layout: post

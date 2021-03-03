@@ -1,5 +1,5 @@
 ---
-title: Yearling Renovation - Portfolio
+title: Yearling Renovation
 description: This project showcases a main floor renovation consisting of mainly cabinets and an upstairs bathroom renovation.  Customer wanted to see the space with a specific style of cabinetry, tile, countertop, handles and pulls.  A new bathroom layout is also showcased.
 bannerh1: Yearling Renovation
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: Heritage Homes - Portfolio
+title: Heritage Homes
 description: Large development project in North Dakota.  It consisted of 78 homes plus a welcome center, pool, and pickleball court.  The main selling feature was the “Side Lot” concept for this development. One home was selected to showcase its interior.
 bannerh1: Heritage Homes
 layout: post
