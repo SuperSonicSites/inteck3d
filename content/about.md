@@ -14,7 +14,7 @@ Benjamin Heron, Inteck’s licensed architect, holds his MA in Architecture. He 
 
 heading2: Priority Customer Service And Support
 box1: QUICK RESPONSE TIME
-box1_desc: There's nothing worse than reaching out and receiving a delayed response, or no answer at all! We prioritize a fast response time so we can address your needs in the moment. If you need a quote or assistance with a claim, we're always available and ready to help.
+box1_desc: There's nothing worse than reaching out and receiving a delayed response, or no answer at all! We prioritize a fast response time so we can address your needs in the moment. If you need a quote or any kind of assistance, we're always available and ready to help.
 
 box2: 100% MONEY BACK GUARANTEE
 box2_desc: Building projects are already stressful enough. When you come to Inteck, we want you to feel safe and risk free. Your needs and satisfaction are our priority. We’re here to serve you and if you’re not satisfied with our product, we offer a 100% money back guarantee.

@@ -7,7 +7,7 @@ hero2: Inteck3d
 hero3: See your vision. Expand the potential.
 
 heading1: See it before you Build it.
-heading1_sub: "Do you want to renovate, pre-sell your condo or housing development, or finally build your dream home? What if you could see or showcase your space before construction even begins? Using sophisticated software, Inteck3D creates high end images and tours of your home in stunning virtual reality. If you’re in the housing business, you can showcase AND sell your homes before the foundation is even laid. And if you’re building that dream kitchen or bathroom, not only can you see your vision, but you can also see and experiment with paint hues, cabinets, counters, and tiles."
+heading1_sub: "Do you want to renovate, pre-sell your condo or housing development, or finally build your dream home? What if you could see or showcase your space before construction even begins? Using sophisticated software, Inteck3D creates high end images and tours of your home in stunning virtual reality. If you’re in the housing business, you can showcase and sell your homes before the foundation is even laid. And if you’re building that dream kitchen or bathroom, not only can you see your vision, but you can also see and experiment with paint hues, cabinets, counters, and tiles."
 
 service1: 2D & 3D Rendering
 service1_desc: "We can build a 3D virtual reality from your already existing 2D drafting or vice versa: produce 2D blueprints ready for construction from your envisioned 3D space. Quality can range from general to detailed - we are versatile and ready to meet your needs."
@@ -19,7 +19,7 @@ service3: Architectural Drawing
 service3_desc: "Our drawings aren’t just a sketch of your vision; they can make your plans a reality. Our specialists can produce architectural drawings that allow you to request permanent applications. Take our blueprints, give them to your builder and start construction right away!"
 
 
-heading2: What Can An Architectural Visualization Specialist Do For You?
+heading2: What Can Our Architectural Visualization Specialist Do For You?
 heading2_sub: "At Inteck3D, we’re all about service and what we can do for you. We offer a variety of different options from 2D drafting to 3D images, videos, and 360 tours. If you’re someone looking to build a dream house or a kitchen or basement renovation you’ll likely want a different product than a landlord wanting to showcase and market their condo or housing development.
 <br><br>
 <strong>Our Bronze</strong> quality images and video renders are perfect for visualizing spatial orientation and referencing. The renders can be produced almost instantaneously and are inexpensive, although not superb quality.

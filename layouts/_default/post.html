@@ -33,21 +33,61 @@
         alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo3 }} 500w,
           {{ $.Site.BaseURL}}{{ .Params.photo3 }}">
       </figure>
+
+      {{ if .Params.photo4 }}
       <figure class="gallery__item gallery__item--1">
         <img src="{{ $.Site.BaseURL}}{{ .Params.photo4 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo1 }}" class="gallery__img lazyload"
         alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo4 }} 500w,
           {{ $.Site.BaseURL}}{{ .Params.photo4 }}">
       </figure>
+      {{ else }}
+      <span></span>
+      {{ end }}
+      {{ if .Params.photo5 }}
       <figure class="gallery__item gallery__item--1">
         <img src="{{ $.Site.BaseURL}}{{ .Params.photo5 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo5 }}" class="gallery__img lazyload"
         alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo5 }} 500w,
           {{ $.Site.BaseURL}}{{ .Params.photo5 }}">
       </figure>
+      {{ else }}
+      <span></span>
+      {{ end }}
+      {{ if .Params.photo6 }}
       <figure class="gallery__item gallery__item--1">
         <img src="{{ $.Site.BaseURL}}{{ .Params.photo6 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo6 }}" class="gallery__img lazyload"
         alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo6 }} 500w,
           {{ $.Site.BaseURL}}{{ .Params.photo6 }}">
       </figure>
+      {{ else }}
+      <span></span>
+      {{ end }}
+      {{ if .Params.photo7 }}
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}{{ .Params.photo7 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo7 }}" class="gallery__img lazyload"
+        alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo7 }} 500w,
+          {{ $.Site.BaseURL}}{{ .Params.photo7 }}">
+      </figure>
+      {{ else }}
+      <span></span>
+      {{ end }}
+      {{ if .Params.photo8 }}
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}{{ .Params.photo8 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo8 }}" class="gallery__img lazyload"
+        alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo8 }} 500w,
+          {{ $.Site.BaseURL}}{{ .Params.photo8 }}">
+      </figure>
+      {{ else }}
+      <span></span>
+      {{ end }}
+      {{ if .Params.photo9 }}
+      <figure class="gallery__item gallery__item--1">
+        <img src="{{ $.Site.BaseURL}}{{ .Params.photo9 }}" data-src="{{ $.Site.BaseURL}}{{ .Params.photo9 }}" class="gallery__img lazyload"
+        alt="{{ .Params.title }}" data-sizes="auto" data-srcset="{{ $.Site.BaseURL}}{{ .Params.photo9 }} 500w,
+          {{ $.Site.BaseURL}}{{ .Params.photo9 }}">
+      </figure>
+      {{ else }}
+      <span></span>
+      {{ end }}
     </div>
   
   </section>
