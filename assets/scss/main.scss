@@ -35,16 +35,15 @@ p,a,li {
 .footer_logo { 
     width: 350px;
 }
-footer {
-
-    .nav-link {
-    color: $secondary !important;
+.nav-item {
+    color: white !important;
+    transition: all .3s;
 
     &:hover {
-        color: $primary;
+        color: $primary !important;
     }
 }
-}
+
 .footer_icon {
     fill: white;
 }

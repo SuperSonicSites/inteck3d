@@ -18,7 +18,7 @@
           <ul class="">
             {{ range .Site.Menus.main -}}
 
-            <li class="py-1 is-size-5"><a class="has-text-white nav-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            <li class="py-1 is-size-5"><a class="nav-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
 
             {{ end }}
 
@@ -106,7 +106,7 @@
     </div>
   </div>
 </section>
-<div class="has-background-dark py-4">
+<div class="has-background-secondary py-4">
 
   <div class="container level has-text-white">
 
