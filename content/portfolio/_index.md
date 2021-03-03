@@ -1,6 +1,6 @@
 ---
-title: Inteck3d Portfolio
-description: 
+title: Inteck3d 3d Rendering Portfolio
+description: Inteck3D offers blueprints and construction drafting, 3D images, video tours, and 360 self guided video tours. We’re proud of our work and its stunning quality and potential
 bannerh1: Portfolio
 layout: portfolio
 
