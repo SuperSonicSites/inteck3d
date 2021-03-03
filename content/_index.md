@@ -1,8 +1,8 @@
 ---
-title: Architectural Visualization Specialists
+title: Architectural Drafting & Rendering
 description: At Inteck3D, we’re all about service and what we can do for you. We offer a variety of different options from 2D drafting to 3D images, videos, and 360 tours.
 
-hero1: 3D Architectural Renderings with
+hero1: Architectural Drafting & Rendering with
 hero2: Inteck3d
 hero3: See your vision. Expand the potential.
 

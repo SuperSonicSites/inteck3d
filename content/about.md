@@ -4,7 +4,7 @@ description: See your vision. Expand the potential. Over the 8 years it’s been
 bannerh1: About Us
 layout: about
 
-heading1: We Are The Architectural Visualization Specialists
+heading1: We Are The Architectural Drafting & Rendering Specialists
 
 about1: "Over the 8 years it’s been in business, Inteck3D has worked from coast to coast in both Canada and the USA on hundreds of projects ranging from small bathroom, kitchen, and basement renovations to condo and neighbourhood developments worth many millions.
 <br><br>
