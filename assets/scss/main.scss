@@ -25,7 +25,11 @@ p,a,li {
     color: black !important;
     border-color: $primary !important;
 }
-
+.is-secondary {
+    background-color: $secondary !important;
+    color: white;
+    border-color: $secondary;
+}
 
 /* Found in footer */
 .footer_logo { 

@@ -21,21 +21,21 @@
           </h2>
           <div class="is-flex is-row is-column-touch" data-aos="fade" data-aos-delay="1500" data-aos-duration="800">
             <div class="mb-2 mr-2">
-              {{ if eq .Site.Language.Lang "fr" }}
-              <a class="button is-primary" title="Découvrez Nos Produits"
-                href="{{ $.Site.BaseURL }}fr/produits/">Découvrez Nos Produits</a>
-              {{ else }}
-              <a class="button is-primary" title="Discover for Products" href="{{ $.Site.BaseURL }}services/">Discover
-                Our Services</a>
-              {{ end }}
-
-            </div>
-            <div class="">
+             
               {{ if eq .Site.Language.Lang "fr" }}
               <a class="button is-primary" title="Découvrez Nos Services"
                 href="{{ $.Site.BaseURL }}fr/services/">Découvrez Nos Services</a>
               {{ else }}
               <a class="button is-primary" title="Discover Our Services" href="{{ $.Site.BaseURL }}portfolio/">Browse Our Portfolio</a>
+              {{ end }}
+
+            </div>
+            <div class="">
+              {{ if eq .Site.Language.Lang "fr" }}
+              <a class="button is-secondary" title="Découvrez Nos Produits"
+                href="{{ $.Site.BaseURL }}fr/produits/">Découvrez Nos Produits</a>
+              {{ else }}
+              <a class="button is-secondary" title="Discover for Products" href="{{ $.Site.BaseURL }}contact/">Get a Free Quote</a>
               {{ end }}
 
             </div>
