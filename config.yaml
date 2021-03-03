@@ -28,7 +28,7 @@ params:
     name: 'Inteck3D'
     showLanguageSelector: false #true if bilingual site - false if unilingua
     usebasin: 'https://usebasin.com/f/4f17a83c28f7' #endpoint for forms
-    googlemap: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.9335349634403!2d-74.16192348430177!3d45.430841143689534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc935394ab1f189%3A0x38fbddceeb65fe39!2s2658%20Rue%20Yearling%2C%20Saint-Lazare%2C%20QC%20J7T%202A1!5e0!3m2!1sen!2sca!4v1614631070465!5m2!1sen!2sca' # Map code of Google
+    googlemap: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11199.734823199926!2d-74.1596675!3d45.4308377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9b82c8e93788adcd!2sInteck3d%20Inc.!5e0!3m2!1sen!2sca!4v1614785635738!5m2!1sen!2sca' # Map code of Google
     gtm: 'GTM-MJ4X83J'
     hours:
         hour1en: 'Mon - Sat 9:00-17:00' #Footer Hours Line #1
@@ -40,6 +40,7 @@ params:
         pinterest: ''
         instagram: ''
         linkedin: 'https://www.linkedin.com/company/inteck3d-inc.'
+
     schema:
         type: ProfessionalService
         priceRange: $$$

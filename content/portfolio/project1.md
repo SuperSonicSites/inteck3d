@@ -1,9 +1,9 @@
 ---
-title: Inteck3d Portfolio 1
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis, diam ut pretium hendrerit, ligula mauris laoreet nibh, eget convallis augue lorem a dolor. Suspendisse varius sem id dolor consectetur tempus. 
-bannerh1: Project 1
+title: Forte Home Marketing - Portfolio
+description: This home was showcased for a developer for a presale.  Home was designed by an architect in Montreal, and Inteck3d Inc. was tasked to model the home, furnish it, and display the product for marketing material such that the buyer would have a full sense of the interior of the home.
+bannerh1: Forte Home
 layout: post
-slug: project1
+slug: forte-home-marketing
 thumbnail: img/1.jpg
 
 heading: Lorem ipsum
