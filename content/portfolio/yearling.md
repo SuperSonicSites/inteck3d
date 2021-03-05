@@ -1,9 +1,9 @@
 ---
-title: Yearling Renovation
+title: Kitchen and Bath Remodel
 description: This project showcases a main floor renovation consisting of mainly cabinets and an upstairs bathroom renovation.  Customer wanted to see the space with a specific style of cabinetry, tile, countertop, handles and pulls.  A new bathroom layout is also showcased.
-bannerh1: Yearling Renovation
+bannerh1: Kitchen and Bath Remodel
 layout: post
-slug: yearling-bathroom
+slug: Kitchen-Bath-Remodel
 thumbnail: img/Yearling1.jpg
 
 heading: A Stellar Renovation Project
