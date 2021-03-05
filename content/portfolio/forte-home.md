@@ -11,7 +11,7 @@ heading: 3d Rendering for Developer presale.
 desc: This home was showcased for a developer for a presale.  Home was designed by an architect in Montreal, and Inteck3d Inc. was tasked to model the home, furnish it, and display the product for marketing material such that the buyer would have a full sense of the interior of the home.
 
 video: https://player.vimeo.com/video/518269984
-tour_link: https://www.inteck3d.com/tour/forte/index.html
+tour_link: http://forte.inteck3d.com/
 
 photo1: img/forte1.jpg
 photo2: img/forte2.jpg
