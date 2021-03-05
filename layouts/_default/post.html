@@ -5,10 +5,27 @@
         <h2 class="is-size-2 has-text-weight-bold has-text-capitalized">{{ .Params.heading }}</h2>
         <div class="divider"></div>
         <p class="block pt-5">{{ .Params.desc | safeHTML}}</p>
-        <div class="responsiveIframe has-shadow">
-          <iframe src="{{ .Params.video }}" width="640" height="360" frameborder="0" class="lazyload"
-            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+        <div class="columns">
+          <div class="column">
+            <div class="responsiveIframe has-shadow">
+              <iframe src="{{ .Params.video }}" width="640" height="360" frameborder="0" class="lazyload"
+                allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          {{ if .Params.video2 }}
+          <div class="column">
+            <div class="responsiveIframe has-shadow">
+              <iframe src="{{ .Params.video2 }}" width="640" height="360" frameborder="0" class="lazyload"
+                allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          {{ else }}
+          <span></span>
+          {{ end }}
         </div>
+
+
         <div class="has-text-centered mt-5 pt-5">
             <a href="{{ .Params.tour_link }}" class="button is-primary" target="_blank">Experience the
               3D Tour!</a>
