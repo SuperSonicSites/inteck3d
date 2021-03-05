@@ -3,7 +3,7 @@ title: Privacy Policy
 description: "The privacy policy"
 layout: single
 bannerh1: "Privacy Policy"
-companyname: "Inteck3d" #Company Name Here
+companyname: "Inteck3D" #Company Name Here
 companyemail: "admin@inteck3d.com" #Company Name Here
 ---
 

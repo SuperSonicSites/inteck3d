@@ -2,7 +2,7 @@
 <header class="hero is-fullheight is-bold gradient-background home">
 
   <div class="hero-body overlay">
- 
+
     <div class="container is-flex is-column">
       <div class="columns">
         <div class="column is-8 has-text-white is-flex is-column is-justified-center">
@@ -15,18 +15,19 @@
             {{ .Params.hero2 | safeHTML }}
           </h1>
 
-          <h2 class="mt-1 mb-5 is-size-3 has-text-white has-text-shadow has-text-weight-bold" data-aos="fade-up" data-aos-delay="1000"
-            data-aos-duration="800">
+          <h2 class="mt-1 mb-5 is-size-3 has-text-white has-text-shadow has-text-weight-bold" data-aos="fade-up"
+            data-aos-delay="1000" data-aos-duration="800">
             {{ .Params.hero3 | safeHTML }}
           </h2>
           <div class="is-flex is-row is-column-touch" data-aos="fade" data-aos-delay="1500" data-aos-duration="800">
             <div class="mb-2 mr-2">
-             
+
               {{ if eq .Site.Language.Lang "fr" }}
               <a class="button is-primary" title="Découvrez Nos Services"
                 href="{{ $.Site.BaseURL }}fr/services/">Découvrez Nos Services</a>
               {{ else }}
-              <a class="button is-primary" title="Discover Our Services" href="{{ $.Site.BaseURL }}portfolio/">Browse Our Portfolio</a>
+              <a class="button is-primary" title="Discover Our Services" href="{{ $.Site.BaseURL }}portfolio/">Browse
+                Our Portfolio</a>
               {{ end }}
 
             </div>
@@ -35,7 +36,8 @@
               <a class="button is-secondary" title="Découvrez Nos Produits"
                 href="{{ $.Site.BaseURL }}fr/produits/">Découvrez Nos Produits</a>
               {{ else }}
-              <a class="button is-secondary" title="Discover for Products" href="{{ $.Site.BaseURL }}contact/">Get a Free Quote</a>
+              <a class="button is-secondary" title="Discover for Products" href="{{ $.Site.BaseURL }}contact/">Get a
+                Free Quote</a>
               {{ end }}
 
             </div>
@@ -43,7 +45,7 @@
         </div>
 
       </div>
-      
+
     </div>
   </div>
 
@@ -56,57 +58,15 @@
       </p>
     </div>
     <div class="columns">
-      <div class="column">
-        <div class="service_box" data-aos="fade-up"
-          data-aos-duration="800">
-          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
-          <svg class="home_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#cube"></use>
-          </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service1 }}</h3>
-          <p class="has-text-centered has-font-size-small block">{{ .Params.service1_desc }}</p>
-        </div>
-          <div class="has-text-centered">
-            {{ if eq .Site.Language.Lang "fr" }}
-              <a href="/fr/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
-              {{ else }}
-              <a href="/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
-              {{ end }}
-            
-          </div>
-        </div>
-
-      </div>
 
       <div class="column">
-        <div class="service_box " data-aos="fade-up"
-          data-aos-duration="800">
+        <div class="service_box" data-aos="fade-up" data-aos-duration="800">
           <div class="service_content is-flex is-column is-justified-center is-aligned-center">
-          <svg class="home_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#play-circle"></use>
-          </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service2 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.service2_desc }}</p>
-        </div>
-        <div class="has-text-centered">
-          {{ if eq .Site.Language.Lang "fr" }}
-              <a href="/fr/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
-              {{ else }}
-              <a href="/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
-              {{ end }}
-        </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="service_box" data-aos="fade-up"
-          data-aos-duration="800">
-          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
-          <svg class="home_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#pencil-ruler"></use>
-          </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service3 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.service3_desc }}</p>
+            <svg class="home_icon">
+              <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#pencil-ruler"></use>
+            </svg>
+            <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service3 }}</h3>
+            <p class="has-text-centered has-font-size-small">{{ .Params.service3_desc }}</p>
           </div>
           <div class="has-text-centered">
             {{ if eq .Site.Language.Lang "fr" }}
@@ -114,7 +74,47 @@
             {{ else }}
             <a href="/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
             {{ end }}
+          </div>
         </div>
+      </div>
+
+      <div class="column">
+        <div class="service_box" data-aos="fade-up" data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+            <svg class="home_icon">
+              <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#cube"></use>
+            </svg>
+            <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service1 }}</h3>
+            <p class="has-text-centered has-font-size-small block">{{ .Params.service1_desc }}</p>
+          </div>
+          <div class="has-text-centered">
+            {{ if eq .Site.Language.Lang "fr" }}
+            <a href="/fr/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ else }}
+            <a href="/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ end }}
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="column">
+        <div class="service_box " data-aos="fade-up" data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-center is-aligned-center">
+            <svg class="home_icon">
+              <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#play-circle"></use>
+            </svg>
+            <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service2 }}</h3>
+            <p class="has-text-centered has-font-size-small">{{ .Params.service2_desc }}</p>
+          </div>
+          <div class="has-text-centered">
+            {{ if eq .Site.Language.Lang "fr" }}
+            <a href="/fr/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ else }}
+            <a href="/services/" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ end }}
+          </div>
         </div>
       </div>
     </div>
@@ -127,12 +127,12 @@
     <h2 class="has-text-centered is-size-1 mb-5 pb-5 has-text-weight-bold has-text-capitalized">{{ .Params.heading2 | safeHTML }}</h2>
     <div class="columns">
       <div class="column is-8">
-        
+
         <p class="pr-5-desktop has-text-centered-touch">{{ .Params.heading2_sub | safeHTML }}</p>
       </div>
       <div class="column is-4 is-flex is-column is-aligned-center is-justified-center">
         <img src="{{ $.Site.BaseURL }}img/3drendering.jpg" alt="Image of a 3d rendering" class="has-shadow">
-        
+
       </div>
     </div>
   </div>
@@ -140,111 +140,108 @@
 <section class="hero is-fullheight textured_bg">
 
   <div class="hero-body">
-  <div class="container my-5 py-5">
-    <h2 class="has-text-centered is-size-1 mb-5 pb-5 has-text-weight-bold has-text-white has-text-capitalized">{{ i18n "testimonials" }}</h2>
+    <div class="container my-5 py-5">
+      <h2 class="has-text-centered is-size-1 mb-5 pb-5 has-text-weight-bold has-text-white has-text-capitalized">{{ i18n "testimonials" }}</h2>
 
-    <div class="columns is-5 " data-aos="fade-up" data-aos-duration="800">
-      <div class="column">
-        <div class="testimonial testimonial_1">
-          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial1_comment }}</h2>
-          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial1_name }}</h2>
-          {{- partial "stars.html" .}}
-          <p class="block testimonial__text">{{ .Params.Testimonial1 }}</p>
+      <div class="columns is-5 " data-aos="fade-up" data-aos-duration="800">
+        <div class="column">
+          <div class="testimonial testimonial_1">
+            <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial1_comment }}</h2>
+            <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial1_name }}</h2>
+            {{- partial "stars.html" .}}
+            <p class="block testimonial__text">{{ .Params.Testimonial1 }}</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="testimonial testimonial_2">
+            <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial2_comment }}</h2>
+            <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial2_name }}</h2>
+            {{- partial "stars.html" .}}
+            <p class="block testimonial__text">{{ .Params.Testimonial2 }}</p>
+          </div>
         </div>
       </div>
-      <div class="column">
-        <div class="testimonial testimonial_2">
-          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial2_comment }}</h2>
-          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial2_name }}</h2>
-          {{- partial "stars.html" .}}
-          <p class="block testimonial__text">{{ .Params.Testimonial2 }}</p>
+
+      <div class="columns is-5" data-aos="fade-up" data-aos-duration="800">
+        <div class="column">
+          <div class="testimonial testimonial_1">
+            <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial3_comment }}</h2>
+            <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial3_name }}</h2>
+            {{- partial "stars.html" .}}
+            <p class="block testimonial__text">{{ .Params.Testimonial3 }}</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="testimonial testimonial_2">
+            <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial4_comment }}</h2>
+            <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial4_name }}</h2>
+            {{- partial "stars.html" .}}
+            <p class="block testimonial__text">{{ .Params.Testimonial4 }}</p>
+          </div>
         </div>
       </div>
+
     </div>
-
-    <div class="columns is-5" data-aos="fade-up" data-aos-duration="800">
-      <div class="column">
-        <div class="testimonial testimonial_1">
-          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial3_comment }}</h2>
-          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial3_name }}</h2>
-          {{- partial "stars.html" .}}
-          <p class="block testimonial__text">{{ .Params.Testimonial3 }}</p>
-        </div>
-      </div>
-      <div class="column">
-        <div class="testimonial testimonial_2">
-          <h2 class="testimonial__name is-size-4 has-text-weight-bold">{{ .Params.Testimonial4_comment }}</h2>
-          <h2 class="is-size-5 has-text-weight-bold">{{ .Params.Testimonial4_name }}</h2>
-          {{- partial "stars.html" .}}
-          <p class="block testimonial__text">{{ .Params.Testimonial4 }}</p>
-        </div>
-      </div>
-    </div>
-
   </div>
-</div>
 </section>
 
 <section class="section is-medium">
   <div class="container">
     <div class="pb-5 mb-5">
-    <h2 class="is-size-1 has-text-centered has-text-weight-bold has-text-capitalized">Types Of Projects</h2>
-  </div>
+      <h2 class="is-size-1 has-text-centered has-text-weight-bold has-text-capitalized">Types Of Projects</h2>
+    </div>
     <div class="columns">
 
       <div class="column">
-        <div class="service_box " data-aos="fade-up"
-          data-aos-duration="800">
+        <div class="service_box " data-aos="fade-up" data-aos-duration="800">
           <div class="service_content is-flex is-column is-justified-startr is-aligned-center">
-          <svg class="home_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#house-night"></use>
-          </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service5 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.service5_desc }}</p>
-        </div>
-        <div class="has-text-centered">
-          {{ if eq .Site.Language.Lang "fr" }}
-              <a href="/fr/services/#service2" class="button is-primary">{{ i18n "learnmore" }}</a>
-              {{ else }}
-              <a href="/services/#service2" class="button is-primary">{{ i18n "learnmore" }}</a>
-              {{ end }}
-        </div>
-        </div>
-      </div>
-      
-      <div class="column">
-        <div class="service_box" data-aos="fade-up"
-          data-aos-duration="800">
-          <div class="service_content is-flex is-column is-justified-startr is-aligned-center">
-          <svg class="home_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#tools"></use>
-          </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service4 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.service4_desc }}</p>
-        </div>
+            <svg class="home_icon">
+              <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#house-night"></use>
+            </svg>
+            <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service5 }}</h3>
+            <p class="has-text-centered has-font-size-small">{{ .Params.service5_desc }}</p>
+          </div>
           <div class="has-text-centered">
             {{ if eq .Site.Language.Lang "fr" }}
-              <a href="/fr/services/#service1" class="button is-primary">{{ i18n "learnmore" }}</a>
-              {{ else }}
-              <a href="/services/#service1" class="button is-primary">{{ i18n "learnmore" }}</a>
-              {{ end }}
-            
+            <a href="/fr/services/#service2" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ else }}
+            <a href="/services/#service2" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="service_box" data-aos="fade-up" data-aos-duration="800">
+          <div class="service_content is-flex is-column is-justified-startr is-aligned-center">
+            <svg class="home_icon">
+              <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#tools"></use>
+            </svg>
+            <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service4 }}</h3>
+            <p class="has-text-centered has-font-size-small">{{ .Params.service4_desc }}</p>
+          </div>
+          <div class="has-text-centered">
+            {{ if eq .Site.Language.Lang "fr" }}
+            <a href="/fr/services/#service1" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ else }}
+            <a href="/services/#service1" class="button is-primary">{{ i18n "learnmore" }}</a>
+            {{ end }}
+
           </div>
         </div>
 
       </div>
 
-      
+
 
       <div class="column">
-        <div class="service_box" data-aos="fade-up"
-          data-aos-duration="800">
+        <div class="service_box" data-aos="fade-up" data-aos-duration="800">
           <div class="service_content is-flex is-column is-justified-startr is-aligned-center">
-          <svg class="home_icon">
-            <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#hotel"></use>
-          </svg>
-          <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service6 }}</h3>
-          <p class="has-text-centered has-font-size-small">{{ .Params.service6_desc }}</p>
+            <svg class="home_icon">
+              <use xlink:href="{{ $.Site.BaseURL }}icons/solid.svg#hotel"></use>
+            </svg>
+            <h3 class="is-size-4 has-text-centered has-text-weight-bold">{{ .Params.service6 }}</h3>
+            <p class="has-text-centered has-font-size-small">{{ .Params.service6_desc }}</p>
           </div>
           <div class="has-text-centered">
             {{ if eq .Site.Language.Lang "fr" }}
@@ -252,7 +249,7 @@
             {{ else }}
             <a href="/services/#service3" class="button is-primary">{{ i18n "learnmore" }}</a>
             {{ end }}
-        </div>
+          </div>
         </div>
       </div>
     </div>
