@@ -1,7 +1,7 @@
 <!-- HTML Meta Tags-->
 <title>{{ .Title}} ~ {{ $.Site.Title }}</title>
 <meta name="description" content="{{ .Params.description }}">
-<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="canonical" href="{{ $.Site.BaseURL}}{{ .Permalink }}" />
 <meta name="robots" content="index, follow">
 <meta name="googlebot" content="index,follow" />
 
@@ -17,7 +17,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ .Title}} ~ {{ .Site.Title }}">
 <meta property="og:description" content="{{ .Params.description }}">
-<meta property="og:image" content="https://www.proficlean.ca/{{ $.Site.Params.schema.og }}"> 
+<meta property="og:image" content="{{ $.Site.BaseURL}}{{ $.Site.Params.schema.og }}"> 
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
@@ -25,7 +25,7 @@
 <meta property="twitter:url" content="{{ .Permalink }}">
 <meta name="twitter:title" content="{{ .Title}} ~ {{ .Site.Title }}">
 <meta name="twitter:description" content="{{ .Params.description }}">
-<meta name="twitter:image" content="https://www.proficlean.ca/{{ $.Site.Params.schema.og }}">
+<meta name="twitter:image" content="{{ $.Site.BaseURL}}{{ $.Site.Params.schema.og }}">
 
 <!-- Favicon Setup -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
