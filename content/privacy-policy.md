@@ -3,8 +3,8 @@ title: Privacy Policy
 description: "The privacy policy"
 layout: single
 bannerh1: "Privacy Policy"
-companyname: "Inteck3D" #Company Name Here
-companyemail: "admin@inteck3d.com" #Company Name Here
+companyname: "Inteck3d" #Company Name Here
+companyemail: "admin@Inteck3d.com" #Company Name Here
 ---
 
 Effective Date: May 5, 2020

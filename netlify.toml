@@ -5,21 +5,21 @@
 
 
 [[redirects]]
-  from = "https://inteck3d.com"
-  to = "https://www.inteck3d.com"
+  from = "https://Inteck3d.com"
+  to = "https://www.Inteck3d.com"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
   
 
 [[redirects]]
-  from = "https://inteck3d.pages.dev"
-  to = "https://www.inteck3d.com"
+  from = "https://Inteck3d.pages.dev"
+  to = "https://www.Inteck3d.com"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://*.inteck3d.pages.dev"
-  to = "https://www.inteck3d.com"
+  from = "https://*.Inteck3d.pages.dev"
+  to = "https://www.Inteck3d.com"
   status = 301
   force = true #COMMENT: ensure that we always redirect
