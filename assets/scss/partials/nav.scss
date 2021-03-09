@@ -23,6 +23,9 @@
       } 
     }
   }
+  .nav_logo {
+    width: 200px;
+  }
 .contact_icon {
   fill: $secondary !important;
 }
@@ -227,7 +230,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
         display: none;
     }
     .nav_logo {
-      width: 200px !important;
+      width: 200px;
     }
  
   }
