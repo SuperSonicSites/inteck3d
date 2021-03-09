@@ -7,7 +7,7 @@ hero2: Inteck3d
 hero3: See your vision. Expand the potential.
 
 heading1: See it before you Build it.
-heading1_sub: "Do you want to renovate, pre-sell your condo or housing development, or finally build your dream home? What if you could see or showcase your space before construction even begins? Using sophisticated software, Inteck3d creates high end images and tours of your home in stunning virtual reality. If you’re in the housing business, you can showcase and sell your homes before the foundation is even laid. And if you’re building that dream kitchen or bathroom, not only can you see your vision, but you can also see and experiment with paint hues, cabinets, counter tops, and tiles."
+heading1_sub: "Do you want to renovate, pre-sell your condo or housing development, or finally build your dream home? What if you could see or showcase your space before construction even begins? Using sophisticated software, Inteck3d creates high end images and tours of your home in stunning virtual reality. If you’re in the housing business, you can showcase and sell your homes before the foundation is even laid. And if you’re building that dream kitchen or bathroom, not only can you see your vision, but you can also see and experiment with paint hues, cabinets, windows, shingles, and everything in between."
 
 service1: 2D & 3D Rendering
 service1_desc: "We can build a 3D virtual reality from your already existing 2D drafting or vice versa: produce 2D blueprints ready for construction from your envisioned 3D space. Quality can range from general to detailed - we are versatile and ready to meet your needs."
@@ -16,7 +16,7 @@ service2: 3D Tours & Videos
 service2_desc: "Showcase and market your space with a beautifully rendered video tour available in either Bronze, Gold, or Platinum quality. Or try a 360 self guided tour to envision your dream home - perfection is achievable when you can chew on the space from wall to wall, corner to corner."
 
 service3: Architectural Drawing
-service3_desc: "Our drawings aren’t just a sketch of your vision; they can make your plans a reality. Our specialists can produce architectural drawings that allow you to request permanent applications. Take our blueprints, give them to your builder and start construction right away!"
+service3_desc: "Our drawings aren’t just a sketch of your vision; they can make your plans a reality. Our specialists produce architectural drawings for permit applications. Take our blueprints, give them to your builder and start construction right away!"
 
 
 heading2: We’re Specialists in Chief Architect software, Drafting, and 3D Visualization…What can we do for you?
@@ -45,16 +45,16 @@ Testimonial2: Since I have started working with Ivan and his staff at Inteck3d t
 
 Testimonial3_comment: Amazing quality work
 Testimonial3_name: Yan and Kimberley
-Testimonial3: Designing and creating a house plan can be stressful and time consuming but working with Inteck3d for our dream home made it so easy and We could not be happier with the results. Inteck3d was very conscientious of our desires and time. The service was beyond expected. Communication was clear and easy and timelines were always respected.  They made sure to give us availabilities that worked for us. The quality of our house plan was amazing! We feel as if we’ve been in it before it’s even build.
+Testimonial3: Designing and creating a house plan can be stressful and time consuming but working with Inteck3d for our dream home made it so easy and we could not be happier with the results. Inteck3d was very conscientious of our desires and time. The service was beyond expected. Communication was clear and easy and timelines were always respected.  They made sure to give us availabilities that worked for us. The quality of our house plan was amazing! We feel as if we’ve been in it before it’s even built.
 
 
-Testimonial4_comment: Inteck3d's is a breath of fresh air
+Testimonial4_comment: Inteck3d is a breath of fresh air
 Testimonial4_name: Steve Hunsader, Coronado Construction, SF Bay Area.
-Testimonial4: I'm glad to have met Ivan and his crew back in 2019. In today's world, where most sub-contractors cause project delays and provide less than optimal work, Inteck3d's is a breath of fresh air. They keep to their schedule while providing exceptional work. Communication from them is timely and clear. They ask questions when we provide information that could be interpreted in multiple ways instead of making assumptions. Intek3d is now a sharp tool we'll hold close in out toolbag. 
+Testimonial4: I'm glad to have met Ivan and his crew back in 2019. In today's world, where most sub-contractors cause project delays and provide less than optimal work, Inteck3d is a breath of fresh air. They keep to their schedule while providing exceptional work. Communication from them is timely and clear. They ask questions when we provide information that could be interpreted in multiple ways instead of making assumptions. Intek3d is now a sharp tool we'll hold close in out toolbag. 
 
 
 service4: Drafting/House Plans
-service4_desc: Using Chief Architect, we create drafting and 2D drawings that you can use for construction documents, permanent applications, and building permits. And the 2D drawings are duplicated simultaneously in 3D so you can still get an accurate visual representation of your space!
+service4_desc: Using Chief Architect, we create drafting and 2D drawings that you can use for construction documents and building permits. And the 2D drawings are duplicated simultaneously in 3D so you can still get an accurate visual representation of your space!
 
 service5: Home Visualization
 service5_desc: Inteck3d is a designer’s dream. Experiment with floor plans, walls, staircase design, the works, and nail down exactly what you envision your dream home to look like. We can even import data into our program so you can see how your actual furniture can look like in your dream space.
