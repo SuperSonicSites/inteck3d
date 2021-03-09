@@ -1,6 +1,6 @@
 ---
 title: Kitchen and Bath Remodel
-description: This project consisted of a main floor renovation, mostly focusing on cabinets, and an upstairs bathroom renovation. Visit our portoflio to learn more.
+description: This project consisted of a main floor renovation, mostly focusing on cabinets, and an upstairs bathroom renovation. See full details to learn more.
 bannerh1: Kitchen and Bath Remodel
 layout: post
 slug: Kitchen-Bath-Remodel

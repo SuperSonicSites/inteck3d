@@ -1,6 +1,6 @@
 ---
 title: Forte Home Marketing
-description: Once the home was designed by an architect in Montreal, Inteck3d Inc. was tasked to model and furnish the building. Visit our portfolio for more information.
+description: Once the home was designed by an architect in Montreal, Inteck3d Inc. was tasked to model and furnish the building. See full details to learn more.
 bannerh1: Forte Home
 layout: post
 slug: forte-home-marketing
@@ -10,7 +10,7 @@ heading: 3d Rendering for Developer presale.
 
 desc: Once the home was designed by an architect in Montreal, Inteck3d Inc. was tasked to model and furnish the building. We provided 3D images and a video tour for the developer to showcase and market it for presale. The 3D renders capture the superb design and beauty of the home and give an excellent picture of the interior for a prospective buyer.
 
-video: https://player.vimeo.com/video/518269984
+video: https://player.vimeo.com/video/521384164 
 tour_link: http://forte.Inteck3d.com/
 
 photo1: img/forte1.jpg
