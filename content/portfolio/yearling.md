@@ -10,7 +10,7 @@ heading: A Stellar Renovation Project
 
 desc: This project consisted of a main floor renovation, mostly focusing on cabinets, and an upstairs bathroom renovation. The customer wanted to see the space with a specific style of cabinetry, tile, countertop, handles and pulls. A new bathroom layout is also showcased. These images offer a practical way to make those tough design decisions when you can actually see them in action!
 
-video: https://player.vimeo.com/video/519107719
+video: https://player.vimeo.com/video/518710654
 tour_link: http://yearling.Inteck3d.com/
 
 photo1: img/Yearling2.jpg
