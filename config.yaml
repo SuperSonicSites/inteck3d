@@ -30,6 +30,7 @@ params:
     usebasin: 'https://usebasin.com/f/4f17a83c28f7' #endpoint for forms
     googlemap: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11199.734823199926!2d-74.1596675!3d45.4308377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9b82c8e93788adcd!2sInteck3d%20Inc.!5e0!3m2!1sen!2sca!4v1614785635738!5m2!1sen!2sca' # Map code of Google
     gtm: 'GTM-MJ4X83J'
+    cloudinary_base_url: "https://res.cloudinary.com/supersonic-sites/image/upload/"
     hours:
         hour1en: 'Mon - Sat 9:00-17:00' #Footer Hours Line #1
         hour2en: 'Sun CLOSED' #Footer Hours Line #2

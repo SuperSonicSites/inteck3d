@@ -131,7 +131,8 @@
         <p class="pr-5-desktop has-text-centered-touch">{{ .Params.heading2_sub | safeHTML }}</p>
       </div>
       <div class="column is-4 is-flex is-column is-aligned-center is-justified-center">
-        <img class="has-shadow lazyload" src="{{ $.Site.BaseURL }}img/3drendering.jpg" alt="Image of a 3d rendering"/>
+        <img class="cld-responsive lazyload has-shadow" data-src="{{ $.Site.Params.cloudinary_base_url }}w_auto,c_scale,f_auto,q_auto,dpr_auto/{{ .Params.image1 }}" alt="post-image"/>
+        
       </div>
     </div>
   </div>

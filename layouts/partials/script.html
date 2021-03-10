@@ -4,7 +4,17 @@
 
 <script src="{{ $.Site.BaseURL }}js/lazysizes.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.8.2/cloudinary-core-shrinkwrap.min.js"></script>
+
+{{ "<!-- cloudinary -->" | safeHTML }}
+<script type="text/javascript">
+    var cl = cloudinary.Cloudinary.new({cloud_name: "supersonic-sites"}); 
+    // replace 'demo' with your cloud name in the line above 
+    cl.responsive();
+	</script>
 
 <script>
   AOS.init();
 </script>
+
+

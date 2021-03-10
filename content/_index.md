@@ -34,6 +34,8 @@ If you’re looking for a more polished 3D product, not just a 2D draft, then th
 <br><br>
 <strong>The 360 Tour</strong> is another fantastic product to help you market your rental property or secondary income suite. A Gold or Platinum video is a good way to catch interest but if your prospects want a more detailed look, the 360 self guided tour lets them take their time going through the whole house. If you’re doing a renovation and want to study it in detail, the 360 tour is also the best choice for you."
 
+image1: v1615303495/Inteck3d/3drendering_vbbxmj.jpg
+
 Testimonial1_comment: "Working with you has been a game changer "
 Testimonial1_name: Katja Rimmi - Katja Rimmi Interiors
 Testimonial1: Working with Inteck3d has been a game changer for our business. We design whole house remodels for our clients and we also work on new home design and construction. It would not be possible for us to keep up with demand and deliver in a timely fashion for our clients without the expert help from Inteck3d in visualizing these homes in 3D. They communicate proactively and clearly, understanding our needs and objectives easily.  
