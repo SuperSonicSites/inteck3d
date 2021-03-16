@@ -1,6 +1,6 @@
 ---
-title: Contact Page & Bottle Return Request
-description: Contact Us! We are an environmentally conscious cleaning company in the region of Montreal, QC striving to bring sustainability to our industry and your homes!
+title: Contact Page
+description: Contact Us! We are happy to help with your questions!
 layout: contact
 
 bannerh1: Contact Us
