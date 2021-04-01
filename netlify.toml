@@ -4,7 +4,7 @@
   status = 404
 
 [[redirects]]
-  from = "https://inteck3d.netlify.app"
-  to = "https://www.inteck3d.com/"
+  from = "https://infallible-heyrovsky-0bdc79.netlify.app/"
+  to = "https://www.raincoastrentals.ca/"
   status = 301
   force = true #COMMENT: ensure that we always redirect

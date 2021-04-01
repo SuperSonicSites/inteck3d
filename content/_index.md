@@ -52,7 +52,7 @@ Testimonial3: Designing and creating a house plan can be stressful and time cons
 
 Testimonial4_comment: Inteck3d is a breath of fresh air
 Testimonial4_name: Steve Hunsader, Coronado Construction, SF Bay Area.
-Testimonial4: I'm glad to have met Ivan and his crew back in 2019. In today's world, where most sub-contractors cause project delays and provide less than optimal work, Inteck3d is a breath of fresh air. They keep to their schedule while providing exceptional work. Communication from them is timely and clear. They ask questions when we provide information that could be interpreted in multiple ways instead of making assumptions. Intek3d is now a sharp tool we'll hold close in out toolbag. 
+Testimonial4: I'm glad to have met Ivan and his crew back in 2019. In today's world, where most sub-contractors cause project delays and provide less than optimal work, Inteck3d is a breath of fresh air. They keep to their schedule while providing exceptional work. Communication from them is timely and clear. They ask questions when we provide information that could be interpreted in multiple ways instead of making assumptions. Inteck3d is now a sharp tool we'll hold close in our toolbag.
 
 
 service4: Drafting/House Plans
