@@ -10,8 +10,8 @@ heading: Large Development in North Dakota.
 
 desc: This model was part of a large development project in North Dakota consisting of 78 homes, plus a welcome center, pool, and pickleball court. The main selling feature was the “Side Lot” concept for this development. The pristine 3D video tours offer a great way to showcase the home’s interior.
 
-video: https://player.vimeo.com/video/519110805
-video2: https://player.vimeo.com/video/519994216
+video: https://player.vimeo.com/video/526331284
+video2: https://player.vimeo.com/video/531475958
 tour_link: http://kennedy.Inteck3d.com/
 
 photo1: img/heritage1.jpg
