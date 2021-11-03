@@ -60,3 +60,18 @@ p,a,li {
         fill: black;
     }
 }
+
+.callnow {
+    display: none;
+  }
+  .getquote {
+    display: flex;
+}
+@media(max-width: 478px) {
+    .callnow {
+      display: flex;
+    }
+    .getquote {
+      display: none;
+    }
+}
