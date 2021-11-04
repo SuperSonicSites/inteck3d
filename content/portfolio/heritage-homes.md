@@ -1,5 +1,5 @@
 ---
-title: Heritage Homes
+title: Heritage Homes ~ Architectural Drafting & Visualization
 description: This model was part of a large development project in North Dakota consisting of 78 homes, plus a welcome center, pool, and pickleball court. See full details to learn more.
 bannerh1: Heritage Homes
 layout: post

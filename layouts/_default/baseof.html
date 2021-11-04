@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +11,10 @@
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     {{- partial "gtm-head.html" . }}
+
+    {{ if .Params.noindex }}
+    <meta name="robots" content="noindex" /> 
+    {{ end }}
 </head>
 <body>
     {{- partial "nav.html" . }}

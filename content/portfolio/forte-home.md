@@ -1,5 +1,5 @@
 ---
-title: Forte Home Marketing
+title: Forte Home Marketing ~ Architectural Drafting & Visualization
 description: Once the home was designed by an architect in Montreal, Inteck3d Inc. was tasked to model and furnish the building. See full details to learn more.
 bannerh1: Forte Home
 layout: post

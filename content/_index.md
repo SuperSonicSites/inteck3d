@@ -1,6 +1,6 @@
 ---
-title: Architectural Drafting & Rendering
-description: At Inteck3d, we’re all about service and what we can do for you. We offer a variety of different options from 2D drafting to 3D images, videos, and 360 tours.
+title: Architectural Drafting, Rendering & Design
+description: Inteck3d offers architectural drafting, architectural designs & rendering in 2D and 3D, in videos, and 360 tours. Call us today to get a free consultation.
 
 hero1: Architectural Design, Drafting, & Rendering with
 hero2: Inteck3d

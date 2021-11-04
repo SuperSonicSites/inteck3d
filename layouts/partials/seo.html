@@ -2,8 +2,15 @@
 <title>{{ .Title}} ~ {{ $.Site.Title }}</title>
 <meta name="description" content="{{ .Params.description }}">
 <link rel="canonical" href="{{ .Permalink }}" />
+{{ if .Params.noindex }}
+<meta name="robots" content="noindex, nofollow" /> 
+<meta name="googlebot" content="noindex, nofollow" />
+{{ else }}
 <meta name="robots" content="index, follow">
-<meta name="googlebot" content="index,follow" />
+<meta name="googlebot" content="index, follow" />
+
+{{ end }}
+
 
 <!-- Sitemap -->
 <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ .Site.BaseURL | relLangURL }}sitemap.xml" /> 

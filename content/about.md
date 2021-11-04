@@ -1,5 +1,5 @@
 ---
-title: About Inteck3d and Our Mission
+title: About Us  ~ Architectural Services ~ Inteck3d Inc.
 description: See your vision. Expand the potential. Over the 8 years it’s been in business, Inteck3d has worked from coast to coast in both Canada and the USA. Learn more about us here.
 bannerh1: About Us
 layout: about
