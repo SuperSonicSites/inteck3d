@@ -10,7 +10,7 @@
   force = true #COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://www.inteck3d.com/new-home"
+  from = "https://www.inteck3d.com/new-home/"
   to = "https://docs.google.com/forms/d/e/1FAIpQLSchF8NBXqDNC1ta0eS6j6MbEJY3RihFJpJ_i8gY33nvSrGROg/viewform"
   status = 301
   force = true #COMMENT: ensure that we always redirect
