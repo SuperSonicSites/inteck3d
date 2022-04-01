@@ -9,17 +9,19 @@
   from = "https://www.inteck3d.com/new-home"
   to = "https://docs.google.com/forms/d/e/1FAIpQLSchF8NBXqDNC1ta0eS6j6MbEJY3RihFJpJ_i8gY33nvSrGROg/viewform :splat"
   status = 301
-  
-[[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
 
 [[redirects]]
   from = "https://inteck3d.netlify.app/"
   to = "https://www.inteck3d.com/"
   status = 301
   force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+
 
 
   
