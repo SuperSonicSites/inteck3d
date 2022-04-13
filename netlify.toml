@@ -11,6 +11,12 @@
   status = 301
 
 [[redirects]]
+  from = "https://www.inteck3d.com/meet-ivan"
+  to = "https://meetings.hubspot.com/ivan-cyr"
+  status = 301
+
+
+[[redirects]]
   from = "https://inteck3d.netlify.app/"
   to = "https://www.inteck3d.com/"
   status = 301
