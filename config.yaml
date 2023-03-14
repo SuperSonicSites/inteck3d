@@ -19,9 +19,12 @@ menu:
     - name: Portfolio
       url: 'portfolio/'
       weight: 4
+    - name: Work With Us
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLSfaQckRoGMHuPc50zOFmgYQlFwnPzQJky0HCOQlha7rDzCqmQ/viewform'
+      weight: 5
     - name: Contact
       url: 'contact/'
-      weight: 5
+      weight: 6
 
 
 params:
