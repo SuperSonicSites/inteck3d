@@ -113,7 +113,7 @@
 
       <div class="level-item">
 
-        <small>Copyright © {{ dateFormat "2006" now }} -
+        <small>Copyright © <span id="year"></span> -
 
           {{ if eq .Site.Language.Lang "fr" }}
 
@@ -142,3 +142,10 @@
   </div>
 
 </div>
+
+<!-- Display Current Year in Footer -->
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        document.getElementById('year').textContent = new Date().getFullYear();
+    });
+</script>
